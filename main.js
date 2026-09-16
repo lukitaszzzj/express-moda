@@ -31,6 +31,7 @@
       setupLayers();
       setupSearch();
       setupCatalog();
+      setupProduct();
       setupRouter();
       watchMotionPreference();
       loadProducts();
@@ -691,6 +692,176 @@
     Catalog.init();
   }
 
+  /* ---------- Ficha de producto (#p/slug) ---------- */
+
+  var Product = {
+    current: null,
+    sel: { color: null, talle: null, qty: 1 },
+    pendingSlug: null,
+
+    init: function () {
+      this.el = document.getElementById('product');
+      this.inner = document.getElementById('pd');
+      if (!this.el || !this.inner) { return; }
+      var self = this;
+
+      this.inner.addEventListener('click', function (e) {
+        var thumb = e.target.closest('[data-foto]');
+        if (thumb) { self.showPhoto(parseInt(thumb.getAttribute('data-foto'), 10)); return; }
+        var opt = e.target.closest('[data-opt]');
+        if (opt) { self.choose(opt.getAttribute('data-opt'), opt.getAttribute('data-value')); return; }
+        var qty = e.target.closest('[data-qty]');
+        if (qty) { self.setQty(self.sel.qty + parseInt(qty.getAttribute('data-qty'), 10)); return; }
+        if (e.target.closest('[data-pd-add]')) { self.add(); }
+      });
+
+      document.addEventListener('em:products', function () {
+        if (self.pendingSlug) { var s = self.pendingSlug; self.pendingSlug = null; self.open(s); }
+      });
+
+      EM.openProduct = function (slug) { self.open(slug); };
+      EM.closeProduct = function () { self.close(); };
+      EM.closeProductIfOpen = function () { if (Layers.isOpen(self.el)) { self.hide(); } };
+    },
+
+    open: function (slug) {
+      var p = EM.bySlug[slug];
+      if (!p) {
+        if (!EM.products.length) { this.pendingSlug = slug; }
+        return;
+      }
+      this.current = p;
+      this.sel = {
+        color: p.colores.length === 1 ? p.colores[0] : null,
+        talle: p.talles.length === 1 ? p.talles[0] : null,
+        qty: 1
+      };
+      this.render();
+      if (!Layers.isOpen(this.el)) { Layers.open(this.el); }
+      this.el.scrollTop = 0;
+      rememberViewed(p);
+    },
+
+    // Cierre pedido por el usuario (X, Escape): vuelve atrás en el historial si la ficha
+    // se abrió navegando dentro de la web; si se entró directo por link, reemplaza el hash.
+    close: function () {
+      if (EM.hashBeforeProduct != null) {
+        window.history.back();
+      } else {
+        if (window.history.replaceState) { window.history.replaceState(null, '', '#catalogo'); }
+        this.hide();
+      }
+    },
+
+    hide: function () {
+      if (!Layers.isOpen(this.el)) { return; }
+      var p = this.current;
+      Layers.close(this.el);
+      this.current = null;
+      document.dispatchEvent(new CustomEvent('em:product-closed', { detail: p }));
+    },
+
+    render: function () {
+      var p = this.current;
+      var sel = this.sel;
+      var price = p.precioPromo || p.precio;
+      var thumbs = p.fotos.length > 1
+        ? '<ul class="pd__thumbs">' + p.fotos.map(function (f, i) {
+            return '<li><button class="pd__thumb" type="button" data-foto="' + i + '" aria-pressed="' + (i === 0 ? 'true' : 'false') + '" aria-label="Foto ' + (i + 1) + ' de ' + p.fotos.length + '">' +
+              '<img src="' + esc(f) + '" alt="" width="240" height="320" loading="lazy" decoding="async"></button></li>';
+          }).join('') + '</ul>'
+        : '';
+      var group = function (kind, label, values, chosen) {
+        if (!values.length) { return ''; }
+        return '<div class="pd__group">' +
+          '<p class="pd__label" id="pd-' + kind + '-label">' + label + ' <span>' + (chosen ? esc(chosen) : 'Elegí una opción') + '</span></p>' +
+          '<div class="opts" role="group" aria-labelledby="pd-' + kind + '-label">' +
+            values.map(function (v) {
+              return '<button class="opt" type="button" data-opt="' + kind + '" data-value="' + esc(v) + '" aria-pressed="' + (chosen === v ? 'true' : 'false') + '">' + esc(v) + '</button>';
+            }).join('') +
+          '</div></div>';
+      };
+
+      this.inner.innerHTML =
+        '<div class="pd__gallery">' +
+          '<div class="pd__main"><img id="pd-main" src="' + esc(p.fotos[0]) + '" alt="' + esc(p.nombre) + '" width="768" height="1024" decoding="async"></div>' +
+          thumbs +
+        '</div>' +
+        '<div class="pd__info">' +
+          '<p class="eyebrow">' + esc(cap(p.genero)) + ' · ' + esc(p.subcategoria) + '</p>' +
+          '<h2 class="pd__name" id="pd-name">' + esc(p.nombre) + '</h2>' +
+          '<p class="pd__price">' + priceHtml(p, true) + (p.precioPromo ? ' <span class="card__promo">Promo</span>' : '') + '</p>' +
+          '<p class="pd__installments">3 cuotas sin interés de ' + fmt(price / 3) + '</p>' +
+          group('color', 'Color', p.colores, sel.color) +
+          group('talle', 'Talle', p.talles, sel.talle) +
+          '<div class="pd__group">' +
+            '<p class="pd__label" id="pd-qty-label">Cantidad</p>' +
+            '<div class="qty" role="group" aria-labelledby="pd-qty-label">' +
+              '<button type="button" data-qty="-1" aria-label="Restar una unidad">&minus;</button>' +
+              '<output id="pd-qty" aria-live="polite">' + sel.qty + '</output>' +
+              '<button type="button" data-qty="1" aria-label="Sumar una unidad">+</button>' +
+            '</div>' +
+          '</div>' +
+          '<button class="btn btn--dark btn--block pd__add" type="button" data-pd-add>Agregar al carrito</button>' +
+          '<p class="pd__hint" id="pd-hint" aria-live="polite"></p>' +
+          '<p class="pd__desc">' + esc(p.descripcion) + '</p>' +
+          '<a class="pd__store" href="' + esc(p.urlTienda) + '" target="_blank" rel="noopener">Ver en la tienda online</a>' +
+        '</div>';
+    },
+
+    showPhoto: function (i) {
+      var p = this.current;
+      if (!p || !p.fotos[i]) { return; }
+      var main = document.getElementById('pd-main');
+      if (main) { main.src = p.fotos[i]; }
+      $$('[data-foto]', this.inner).forEach(function (b) {
+        b.setAttribute('aria-pressed', parseInt(b.getAttribute('data-foto'), 10) === i ? 'true' : 'false');
+      });
+    },
+
+    choose: function (kind, value) {
+      this.sel[kind] = value;
+      var label = document.getElementById('pd-' + kind + '-label');
+      if (label) { label.querySelector('span').textContent = value; }
+      $$('[data-opt="' + kind + '"]', this.inner).forEach(function (b) {
+        b.setAttribute('aria-pressed', b.getAttribute('data-value') === value ? 'true' : 'false');
+      });
+      this.hint('');
+    },
+
+    setQty: function (n) {
+      this.sel.qty = Math.max(1, Math.min(10, n));
+      var out = document.getElementById('pd-qty');
+      if (out) { out.textContent = this.sel.qty; }
+    },
+
+    hint: function (text) {
+      var el = document.getElementById('pd-hint');
+      if (el) { el.textContent = text; }
+    },
+
+    add: function () {
+      var p = this.current;
+      if (!p) { return; }
+      if (p.colores.length && !this.sel.color) { this.hint('Elegí un color para agregar la prenda.'); return; }
+      if (p.talles.length && !this.sel.talle) { this.hint('Elegí un talle para agregar la prenda.'); return; }
+      if (!EM.addToCart) { this.hint('El carrito todavía no está disponible.'); return; }
+      EM.addToCart(p, this.sel.color, this.sel.talle, this.sel.qty);
+      this.hint('');
+    }
+  };
+
+  function rememberViewed(p) {
+    storageSet('em_lastViewed', { id: p.id, genero: p.genero, subcategoria: p.subcategoria });
+    var recent = storageGet('em_recent', []);
+    recent = [p.id].concat(recent.filter(function (id) { return id !== p.id; })).slice(0, 8);
+    storageSet('em_recent', recent);
+  }
+
+  function setupProduct() {
+    Product.init();
+  }
+
   /* ---------- Router por hash: #catalogo/..., #p/slug ---------- */
 
   function setupRouter() {
@@ -708,7 +879,15 @@
       }
     }
 
-    window.addEventListener('hashchange', function () { route({ scroll: true }); });
+    window.addEventListener('hashchange', function (e) {
+      var isProduct = /^#p\//.test(window.location.hash);
+      if (isProduct && EM.hashBeforeProduct == null) {
+        try { EM.hashBeforeProduct = new URL(e.oldURL).hash || '#inicio'; } catch (err) { EM.hashBeforeProduct = '#inicio'; }
+      } else if (!isProduct) {
+        EM.hashBeforeProduct = null;
+      }
+      route({ scroll: !isProduct });
+    });
 
     document.addEventListener('em:products', function () {
       if (/^#catalogo/.test(window.location.hash)) {

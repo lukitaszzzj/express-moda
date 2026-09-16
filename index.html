@@ -74,8 +74,9 @@
       <nav class="nav" aria-label="Principal">
         <ul class="nav__list">
           <li class="nav__item nav__item--mega">
-            <button class="nav__link" type="button" aria-expanded="false" aria-controls="mega-mujer">
-              Mujer <svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg>
+            <a class="nav__link" href="#catalogo/mujer">Mujer</a>
+            <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mega-mujer" aria-label="Ver subcategorías de Mujer">
+              <svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
             <div class="mega" id="mega-mujer">
               <div class="mega__inner">
@@ -104,8 +105,9 @@
           </li>
 
           <li class="nav__item nav__item--mega">
-            <button class="nav__link" type="button" aria-expanded="false" aria-controls="mega-hombre">
-              Hombre <svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg>
+            <a class="nav__link" href="#catalogo/hombre">Hombre</a>
+            <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mega-hombre" aria-label="Ver subcategorías de Hombre">
+              <svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
             <div class="mega" id="mega-hombre">
               <div class="mega__inner">
@@ -132,8 +134,9 @@
           </li>
 
           <li class="nav__item nav__item--mega">
-            <button class="nav__link" type="button" aria-expanded="false" aria-controls="mega-feria">
-              Feria <svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg>
+            <a class="nav__link" href="#catalogo/feria">Feria</a>
+            <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="mega-feria" aria-label="Ver subcategorías de Feria">
+              <svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
             <div class="mega" id="mega-feria">
               <div class="mega__inner">
@@ -152,9 +155,9 @@
             </div>
           </li>
 
-          <li class="nav__item"><a class="nav__link" href="https://expressmoda.com.ar/gift-cards1/" target="_blank" rel="noopener">Gift cards</a></li>
+          <li class="nav__item"><button class="nav__link" type="button" data-modal="modal-giftcards">Gift cards</button></li>
           <li class="nav__item"><button class="nav__link" type="button" data-modal="modal-contacto">Contacto</button></li>
-          <li class="nav__item"><a class="nav__link" href="https://expressmoda.com.ar/mas-uniformes-empresas/" target="_blank" rel="noopener">Uniformes</a></li>
+          <li class="nav__item"><button class="nav__link" type="button" data-modal="modal-uniformes">Uniformes</button></li>
           <li class="nav__item"><button class="nav__link" type="button" data-modal="modal-locales">Nuestros locales</button></li>
         </ul>
       </nav>
@@ -176,10 +179,12 @@
     <!-- Menú móvil (hamburguesa) -->
     <div class="mobile-menu" id="mobile-menu">
       <nav aria-label="Principal, versión móvil">
-        <details class="acc">
-          <summary class="acc__summary">Mujer <svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg></summary>
-          <ul class="acc__list">
-            <li><a href="#catalogo/mujer">Ver todo Mujer</a></li>
+        <div class="acc">
+          <div class="acc__row">
+            <a class="acc__link" href="#catalogo/mujer">Mujer</a>
+            <button class="acc__toggle" type="button" aria-expanded="false" aria-controls="acc-mujer" aria-label="Ver subcategorías de Mujer"><svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg></button>
+          </div>
+          <ul class="acc__list" id="acc-mujer" hidden>
             <li><a href="#catalogo/mujer/remeras-y-tops">Remeras y tops</a></li>
             <li><a href="#catalogo/mujer/blusas-y-camisas">Blusas y camisas</a></li>
             <li><a href="#catalogo/mujer/sacos-y-blazer">Sacos y blazer</a></li>
@@ -190,11 +195,13 @@
             <li><a href="#catalogo/mujer/pantalones-y-calzas">Pantalones y calzas</a></li>
             <li><a href="#catalogo/mujer/vestidos-y-monos">Vestidos y monos</a></li>
           </ul>
-        </details>
-        <details class="acc">
-          <summary class="acc__summary">Hombre <svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg></summary>
-          <ul class="acc__list">
-            <li><a href="#catalogo/hombre">Ver todo Hombre</a></li>
+        </div>
+        <div class="acc">
+          <div class="acc__row">
+            <a class="acc__link" href="#catalogo/hombre">Hombre</a>
+            <button class="acc__toggle" type="button" aria-expanded="false" aria-controls="acc-hombre" aria-label="Ver subcategorías de Hombre"><svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg></button>
+          </div>
+          <ul class="acc__list" id="acc-hombre" hidden>
             <li><a href="#catalogo/hombre/chombas-y-remeras">Chombas y remeras</a></li>
             <li><a href="#catalogo/hombre/camisas">Camisas</a></li>
             <li><a href="#catalogo/hombre/buzos-y-sweaters">Buzos y sweaters</a></li>
@@ -203,19 +210,21 @@
             <li><a href="#catalogo/hombre/camperas-abrigos-y-sacos">Camperas, abrigos y sacos</a></li>
             <li><a href="#catalogo/hombre/accesorios-y-complementos">Accesorios y complementos</a></li>
           </ul>
-        </details>
-        <details class="acc">
-          <summary class="acc__summary">Feria <svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg></summary>
-          <ul class="acc__list">
-            <li><a href="#catalogo/feria">Ver toda la Feria</a></li>
+        </div>
+        <div class="acc">
+          <div class="acc__row">
+            <a class="acc__link" href="#catalogo/feria">Feria</a>
+            <button class="acc__toggle" type="button" aria-expanded="false" aria-controls="acc-feria" aria-label="Ver subcategorías de Feria"><svg class="nav__chevron" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polyline points="6 9 12 15 18 9"/></svg></button>
+          </div>
+          <ul class="acc__list" id="acc-feria" hidden>
             <li><a href="#catalogo/feria/mujer">Mujer</a></li>
             <li><a href="#catalogo/feria/hombre">Hombre</a></li>
           </ul>
-        </details>
+        </div>
         <ul class="mobile-menu__links">
-          <li><a href="https://expressmoda.com.ar/gift-cards1/" target="_blank" rel="noopener">Gift cards</a></li>
+          <li><button type="button" data-modal="modal-giftcards">Gift cards</button></li>
           <li><button type="button" data-modal="modal-contacto">Contacto</button></li>
-          <li><a href="https://expressmoda.com.ar/mas-uniformes-empresas/" target="_blank" rel="noopener">Uniformes</a></li>
+          <li><button type="button" data-modal="modal-uniformes">Uniformes</button></li>
           <li><button type="button" data-modal="modal-locales">Nuestros locales</button></li>
         </ul>
       </nav>
@@ -224,6 +233,9 @@
   </div>
 
   <main id="inicio">
+
+    <!-- Vista "home". El router la oculta cuando se abre un listado (#catalogo/...). -->
+    <div class="home" id="home">
 
     <!-- ============ INICIO: hero ============ -->
 
@@ -287,34 +299,110 @@
       <ul class="grid" id="recs-grid"></ul>
     </section>
 
-    <!-- ============ CATÁLOGO ============ -->
+    <!-- ============ LO NUEVO (últimas prendas agregadas a la tienda) ============ -->
 
-    <section id="catalogo" class="catalog" aria-labelledby="catalogo-title">
-      <div class="catalog__head reveal">
+    <section class="block" id="nuevo" aria-labelledby="nuevo-title">
+      <div class="block__head reveal">
         <div>
-          <p class="eyebrow">Catálogo</p>
-          <h2 id="catalogo-title" class="section-title">Elegí tu <em>próxima prenda</em></h2>
-          <p class="catalog__count" id="catalog-count"></p>
+          <p class="eyebrow">Recién llegado</p>
+          <h2 id="nuevo-title" class="section-title">Lo <em>nuevo</em></h2>
         </div>
-        <div class="catalog__filters">
-          <div class="filters" role="group" aria-label="Filtrar por género">
-            <button class="filter" type="button" data-genero="todos" aria-pressed="true">Todos</button>
-            <button class="filter" type="button" data-genero="mujer" aria-pressed="false">Mujer</button>
-            <button class="filter" type="button" data-genero="hombre" aria-pressed="false">Hombre</button>
-            <button class="filter" type="button" data-genero="feria" aria-pressed="false">Feria</button>
-          </div>
-          <div class="chips" id="chips" role="group" aria-label="Filtrar por subcategoría"></div>
-        </div>
-        <p id="filter-status" class="visually-hidden" aria-live="polite"></p>
+        <p class="block__note">Las últimas prendas que sumamos a la tienda.</p>
       </div>
-
       <noscript>
-        <p class="catalog__noscript">El catálogo interactivo necesita JavaScript. Podés ver todas las prendas en <a href="https://expressmoda.com.ar/">expressmoda.com.ar</a>.</p>
+        <p class="catalog__noscript">Para ver las prendas hace falta JavaScript.</p>
       </noscript>
-
-      <ul class="grid" id="grid"></ul>
+      <ul class="grid" id="nuevo-grid"></ul>
     </section>
 
+    <!-- ============ RECORDATORIO DE CARRITO (solo si hay productos) ============ -->
+
+    <section class="block pending" id="pendiente" aria-labelledby="pendiente-title" hidden>
+      <div class="pending__box">
+        <div class="pending__text">
+          <p class="eyebrow">Tu carrito</p>
+          <h2 id="pendiente-title" class="section-title">No te olvides de <em>finalizar tu compra</em></h2>
+          <p class="pending__sum" id="pendiente-sum"></p>
+          <button class="btn btn--dark" type="button" data-drawer="cart">Ir al carrito</button>
+        </div>
+        <ul class="pending__list" id="pendiente-list"></ul>
+      </div>
+    </section>
+
+    </div>
+
+    <!-- ============ LISTADO: Mujer, Hombre, Feria y subcategorías (un solo componente) ============ -->
+
+    <section class="listing" id="catalogo" aria-labelledby="listing-title" hidden>
+      <div class="listing__head">
+        <nav class="crumbs" aria-label="Estás en">
+          <ol id="listing-crumbs"></ol>
+        </nav>
+        <h1 id="listing-title" class="section-title listing__title" tabindex="-1">Catálogo</h1>
+        <ul class="chips" id="chips" aria-label="Subcategorías"></ul>
+      </div>
+
+      <div class="listing__bar">
+        <p class="catalog__count" id="catalog-count"></p>
+        <div class="listing__tools">
+          <button class="filters-btn" type="button" id="filters-open" aria-controls="filtros" aria-expanded="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="4" y1="7" x2="20" y2="7"/><line x1="7" y1="12" x2="17" y2="12"/><line x1="10" y1="17" x2="14" y2="17"/></svg>
+            Filtrar <span class="filters-btn__count" id="filters-count"></span>
+          </button>
+          <label class="sort">
+            <span class="sort__label">Ordenar por</span>
+            <select id="sort">
+              <option value="destacados">Destacados</option>
+              <option value="az">A–Z</option>
+              <option value="za">Z–A</option>
+              <option value="precio-asc">Menor precio</option>
+              <option value="precio-desc">Mayor precio</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="listing__body">
+        <!-- En desktop es una columna fija; en mobile, un panel que se abre con "Filtrar". -->
+        <div class="lfilters" id="filtros" data-persist>
+          <div class="lfilters__backdrop" data-close></div>
+          <div class="lfilters__panel" aria-labelledby="filtros-title">
+            <div class="lfilters__head">
+              <h2 id="filtros-title" class="lfilters__title">Filtros</h2>
+              <button class="close-btn" type="button" data-close aria-label="Cerrar filtros">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+              </button>
+            </div>
+            <div class="lfilters__body">
+              <fieldset class="fgroup">
+                <legend class="fgroup__legend">Talle</legend>
+                <div class="opts" id="f-talles"></div>
+              </fieldset>
+              <fieldset class="fgroup">
+                <legend class="fgroup__legend">Color</legend>
+                <div class="opts" id="f-colores"></div>
+              </fieldset>
+              <fieldset class="fgroup">
+                <legend class="fgroup__legend">Disponibilidad</legend>
+                <label class="check"><input type="checkbox" id="f-stock"> Solo con stock</label>
+              </fieldset>
+              <button class="link-btn lfilters__clear" type="button" id="f-clear">Limpiar filtros</button>
+            </div>
+            <div class="lfilters__foot">
+              <button class="btn btn--dark btn--block" type="button" data-close id="f-apply">Ver prendas</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="listing__results">
+          <p id="filter-status" class="visually-hidden" aria-live="polite"></p>
+          <noscript>
+            <p class="catalog__noscript">El catálogo interactivo necesita JavaScript.</p>
+          </noscript>
+          <ul class="grid grid--listing" id="grid"></ul>
+        </div>
+      </div>
+    </section>
 
   </main>
 
@@ -335,34 +423,21 @@
 
       <div class="footer__col">
         <h2>Categorías</h2>
-        <p class="footer__sub"><a href="#catalogo/mujer">Mujer</a></p>
         <ul>
-          <li><a href="#catalogo/mujer/remeras-y-tops">Remeras y tops</a></li>
-          <li><a href="#catalogo/mujer/blusas-y-camisas">Blusas y camisas</a></li>
-          <li><a href="#catalogo/mujer/sacos-y-blazer">Sacos y blazer</a></li>
-          <li><a href="#catalogo/mujer/buzos-y-sweaters">Buzos y sweaters</a></li>
-          <li><a href="#catalogo/mujer/camperas-y-abrigos">Camperas y abrigos</a></li>
-          <li><a href="#catalogo/mujer/polleras-y-shorts">Polleras y shorts</a></li>
-          <li><a href="#catalogo/mujer/jeans">Jeans</a></li>
-          <li><a href="#catalogo/mujer/pantalones-y-calzas">Pantalones y calzas</a></li>
-          <li><a href="#catalogo/mujer/vestidos-y-monos">Vestidos y monos</a></li>
-        </ul>
-        <p class="footer__sub"><a href="#catalogo/hombre">Hombre</a></p>
-        <ul>
-          <li><a href="#catalogo/hombre/chombas-y-remeras">Chombas y remeras</a></li>
-          <li><a href="#catalogo/hombre/camisas">Camisas</a></li>
-          <li><a href="#catalogo/hombre/buzos-y-sweaters">Buzos y sweaters</a></li>
-          <li><a href="#catalogo/hombre/pantalones-y-bermudas">Pantalones y bermudas</a></li>
-          <li><a href="#catalogo/hombre/jeans">Jeans</a></li>
-          <li><a href="#catalogo/hombre/camperas-abrigos-y-sacos">Camperas, abrigos y sacos</a></li>
-          <li><a href="#catalogo/hombre/accesorios-y-complementos">Accesorios y complementos</a></li>
+          <li><a href="#catalogo/mujer">Mujer</a></li>
+          <li><a href="#catalogo/hombre">Hombre</a></li>
+          <li><a href="#catalogo/feria">Feria</a></li>
+          <li><button class="link-btn" type="button" data-modal="modal-giftcards">Gift Card</button></li>
+          <li><button class="link-btn" type="button" data-modal="modal-contacto">Contacto</button></li>
+          <li><button class="link-btn" type="button" data-modal="modal-uniformes">Uniformes</button></li>
+          <li><button class="link-btn" type="button" data-modal="modal-locales">Nuestros Locales</button></li>
         </ul>
       </div>
 
       <div class="footer__col">
         <h2>Contacto</h2>
         <ul>
-          <li><a href="https://wa.me/5491127120131?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener">WhatsApp +54 9 11 2712 0131</a></li>
+          <li><a href="https://wa.me/5492235197367?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" data-wa data-wa-label="WhatsApp ">WhatsApp +54 9 223 519-7367</a></li>
           <!-- Placeholder: reemplazar por el email real -->
           <li>Email: [EMAIL]</li>
           <!-- Placeholder: reemplazar el href por la URL del perfil y el texto por "Instagram" -->
@@ -400,7 +475,7 @@
 
   <!-- ============ WHATSAPP FLOTANTE ============ -->
 
-  <a class="wa-float" href="https://wa.me/5491127120131?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" aria-label="Consultar por WhatsApp">
+  <a class="wa-float" href="https://wa.me/5492235197367?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" aria-label="Consultar por WhatsApp" data-wa>
     <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#ico-wa"/></svg>
   </a>
 
@@ -445,8 +520,8 @@
       </button>
       <p class="eyebrow">Finalizar compra</p>
       <h2 id="modal-demo-title" class="modal__title">Esta web es <em>una demo</em></h2>
-      <p class="demo-note"><strong>Esta web es una demo. Para comprar, entrá a <a href="https://expressmoda.com.ar/" target="_blank" rel="noopener">expressmoda.com.ar</a></strong></p>
-      <a class="btn btn--dark modal__cta" href="https://expressmoda.com.ar/" target="_blank" rel="noopener" style="margin-top:1.5rem">Ir a expressmoda.com.ar</a>
+      <p class="demo-note"><strong>La compra online todavía no está habilitada en esta web.</strong></p>
+      <button class="btn btn--dark modal__cta demo-close" type="button" data-close>Seguir mirando</button>
     </div>
   </div>
 
@@ -467,52 +542,158 @@
     </div>
   </div>
 
-  <!-- Contacto -->
+  <!-- Contacto: datos del Local 18 (expressmoda.com.ar/contacto) y formulario que abre WhatsApp -->
   <div class="modal" id="modal-contacto" role="dialog" aria-modal="true" aria-labelledby="modal-contacto-title" hidden>
     <div class="modal__backdrop" data-close></div>
-    <div class="modal__panel">
+    <div class="modal__panel modal__panel--wide">
       <button class="close-btn" type="button" data-close aria-label="Cerrar">
         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
       </button>
       <p class="eyebrow">Contacto</p>
       <h2 id="modal-contacto-title" class="modal__title">Hablemos por <em>WhatsApp</em></h2>
-      <a class="btn btn--dark modal__cta" href="https://wa.me/5491127120131?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
-        Escribinos por WhatsApp
-      </a>
-      <dl class="modal__list">
-        <div><dt>Teléfono</dt><dd>+54 9 11 2712 0131</dd></div>
-        <div><dt>Email</dt><dd>[EMAIL]</dd></div>
-        <div><dt>Horarios</dt><dd>Lunes a viernes [HORARIO] · Sábados [HORARIO]</dd></div>
-        <div><dt>Dirección</dt><dd>San Martín 2419, Mar del Plata</dd></div>
-      </dl>
+      <div class="contact">
+        <div class="contact__data">
+          <p class="contact__place">Local 18 Mar del Plata</p>
+          <dl class="modal__list">
+            <div><dt>WhatsApp</dt><dd><a href="https://wa.me/5492235197367" target="_blank" rel="noopener" data-wa data-wa-plain>92235197367</a></dd></div>
+            <div><dt>Teléfono</dt><dd><a href="tel:+542235197367">223 519-7367</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:atenciononline@expressmoda.com.ar">atenciononline@expressmoda.com.ar</a></dd></div>
+            <div><dt>Dirección</dt><dd>San Martin 2419 - Mar del Plata</dd></div>
+          </dl>
+        </div>
+        <form class="form contact__form" id="contact-form" novalidate>
+          <p class="form__legend">Todos los campos son obligatorios.</p>
+          <div class="form__field">
+            <label for="cf-nombre">Nombre</label>
+            <input id="cf-nombre" name="nombre" type="text" autocomplete="name" required aria-describedby="cf-nombre-error">
+            <p class="form__error" id="cf-nombre-error"></p>
+          </div>
+          <div class="form__field">
+            <label for="cf-mail">Mail</label>
+            <input id="cf-mail" name="mail" type="email" autocomplete="email" inputmode="email" required aria-describedby="cf-mail-error">
+            <p class="form__error" id="cf-mail-error"></p>
+          </div>
+          <div class="form__field">
+            <label for="cf-telefono">Teléfono</label>
+            <input id="cf-telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="cf-telefono-error">
+            <p class="form__error" id="cf-telefono-error"></p>
+          </div>
+          <div class="form__field">
+            <label for="cf-mensaje">Mensaje</label>
+            <textarea id="cf-mensaje" name="mensaje" rows="4" placeholder="¿En qué te podemos ayudar?" required aria-describedby="cf-mensaje-error"></textarea>
+            <p class="form__error" id="cf-mensaje-error"></p>
+          </div>
+          <button class="btn btn--dark" type="submit">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
+            Enviar
+          </button>
+          <p class="form__note" id="contact-note" aria-live="polite">Al enviar se abre WhatsApp con tu mensaje listo para mandar.</p>
+        </form>
+      </div>
     </div>
   </div>
 
-  <!-- Nuestros locales -->
+  <!-- Nuestros locales (expressmoda.com.ar/mas-locales). Coordenadas geocodificadas desde cada dirección con OpenStreetMap. -->
   <div class="modal" id="modal-locales" role="dialog" aria-modal="true" aria-labelledby="modal-locales-title" hidden>
     <div class="modal__backdrop" data-close></div>
-    <div class="modal__panel">
+    <div class="modal__panel modal__panel--wide">
       <button class="close-btn" type="button" data-close aria-label="Cerrar">
         <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
       </button>
       <p class="eyebrow">Nuestros locales</p>
-      <h2 id="modal-locales-title" class="modal__title">Dos ciudades, <em>una familia</em></h2>
-      <ul class="stores">
-        <li class="store">
-          <p class="store__city">Mar del Plata</p>
-          <p class="store__name">Güemes</p>
-          <p class="store__addr">Castelli 1302</p>
-          <p class="store__hours">Horario: [HORARIO]</p>
-        </li>
-        <li class="store">
-          <p class="store__city">Buenos Aires</p>
-          <p class="store__name">Villa Crespo</p>
-          <p class="store__addr">Av. Córdoba 4644, CABA</p>
-          <p class="store__hours">Horario: [HORARIO]</p>
-        </li>
-      </ul>
-      <a class="modal__link" href="https://expressmoda.com.ar/mas-locales/" target="_blank" rel="noopener">Ver locales en la tienda online</a>
+      <h2 id="modal-locales-title" class="modal__title">Dos ciudades, <em>seis locales</em></h2>
+      <div class="locales">
+        <div class="map" role="region" aria-label="Mapa de locales">
+          <div class="map__canvas" id="locales-map"></div>
+          <p class="map__msg" id="locales-map-msg">Cargando el mapa…</p>
+        </div>
+        <ul class="stores stores--list" id="locales-list">
+          <li class="store" data-store="aldrey" data-lat="-38.0118484" data-lng="-57.5433272">
+            <p class="store__city">Mar del Plata</p>
+            <p class="store__name">Paseo Aldrey Shopping</p>
+            <p class="store__addr">Sarmiento 2685, Local 107</p>
+            <button class="store__btn" type="button" data-map-store="aldrey">Ver en el mapa</button>
+          </li>
+          <li class="store" data-store="gallegos" data-lat="-37.9986932" data-lng="-57.5522603">
+            <p class="store__city">Mar del Plata</p>
+            <p class="store__name">Los Gallegos Shopping</p>
+            <p class="store__addr">Rivadavia 3050, Local 12</p>
+            <button class="store__btn" type="button" data-map-store="gallegos">Ver en el mapa</button>
+          </li>
+          <li class="store" data-store="guemes" data-lat="-38.0156394" data-lng="-57.5419078">
+            <p class="store__city">Mar del Plata</p>
+            <p class="store__name">Güemes</p>
+            <p class="store__addr">Castelli 1302</p>
+            <button class="store__btn" type="button" data-map-store="guemes">Ver en el mapa</button>
+          </li>
+          <li class="store" data-store="peatonal" data-lat="-38.0002359" data-lng="-57.5451234">
+            <p class="store__city">Mar del Plata</p>
+            <p class="store__name">Peatonal</p>
+            <p class="store__addr">San Martin 2419</p>
+            <button class="store__btn" type="button" data-map-store="peatonal">Ver en el mapa</button>
+          </li>
+          <li class="store" data-store="centro" data-lat="-37.9989790" data-lng="-57.5503136">
+            <p class="store__city">Mar del Plata</p>
+            <p class="store__name">Centro</p>
+            <p class="store__addr">Rivadavia 2882/90</p>
+            <button class="store__btn" type="button" data-map-store="centro">Ver en el mapa</button>
+          </li>
+          <li class="store" data-store="caba" data-lat="-34.5940047" data-lng="-58.4307341">
+            <p class="store__city">Ciudad de Buenos Aires</p>
+            <p class="store__name">CABA</p>
+            <p class="store__addr">Av. Cordoba 4644</p>
+            <button class="store__btn" type="button" data-map-store="caba">Ver en el mapa</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Gift cards (expressmoda.com.ar/gift-cards1). Las tarjetas las arma main.js desde GIFTCARDS. -->
+  <div class="modal" id="modal-giftcards" role="dialog" aria-modal="true" aria-labelledby="modal-giftcards-title" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel modal__panel--wide">
+      <button class="close-btn" type="button" data-close aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+      </button>
+      <p class="eyebrow">Gift Cards</p>
+      <h2 id="modal-giftcards-title" class="modal__title">Comprá tu Gift Card <em>Express online!</em></h2>
+      <p class="gc-lead">Una opción ideal para regalar de manera virtual</p>
+      <ul class="gc-grid" id="giftcards-grid"></ul>
+      <div class="gc-info">
+        <p>La recibirás en el email declarado en la compra. El metodo de envío que completes en el checkout es obligatorio por cuestiones administrativas, pero no tiene validez.</p>
+        <h3 class="gc-info__title">¿Cómo la comprás?</h3>
+        <ol class="gc-steps">
+          <li>Selecccionás la Gift Card de tu interés</li>
+          <li>En el carrito vas a poder personalizar un mensaje para esa persona especial, ¡sin costo!</li>
+          <li>Abonás la Gift Card</li>
+          <li>Recibís dentro de las próximas 48 hs a 72hs hábiles un mail con el número de tarjeta giftcard para utilizar su crédito en Express online o en nuestros locales (podés utilizarla vos o re-enviar a quien vos quieras) Solo se podrá utilizar una vez.</li>
+          <li>¡ listo!</li>
+        </ol>
+        <p class="gc-notes">*Recordá que tu Gift Card tiene una duración de 180 días para ser utilizada. *Si vas a dejar un mensaje personalizado, por favor no utilices tildes.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Uniformes (expressmoda.com.ar/mas-uniformes-empresas) -->
+  <div class="modal" id="modal-uniformes" role="dialog" aria-modal="true" aria-labelledby="modal-uniformes-title" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel modal__panel--wide">
+      <button class="close-btn" type="button" data-close aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+      </button>
+      <p class="eyebrow">Uniformes</p>
+      <h2 id="modal-uniformes-title" class="modal__title">Uniformes para tu Empresa o <em>Institucion</em></h2>
+      <img class="uni__img" src="assets/img/uniformes.webp" alt="Cuatro prendas de Express: chaleco largo crudo, sweater gris con cierre, traje sastre gris y sweater tejido claro" width="1200" height="456" loading="lazy" decoding="async">
+      <div class="uni__text">
+        <p>En nuestra fábrica, nos especializamos en la producción de uniformes de alta calidad que se adaptan perfectamente a tus necesidades. Entendemos la importancia de contar con prendas cómodas, duraderas y que reflejen la identidad de tu organización.</p>
+        <h3 class="uni__title">¿Por qué elegir nuestros uniformes?</h3>
+        <ul class="uni__list">
+          <li><strong>Materiales resistentes y cómodos:</strong> Seleccionamos telas que garantizan durabilidad y confort durante toda la jornada laboral.</li>
+          <li><strong>Diseños personalizados:</strong> Adaptamos colores y cortes según el estilo y requerimientos de tu empresa. Contamos con un amplio catalogo de prendas.</li>
+        </ul>
+        <p>Confía en nosotros para obtener uniformes que combinan funcionalidad y estética, ideales para fortalecer la imagen profesional y la comodidad de tu equipo.</p>
+      </div>
     </div>
   </div>
 
@@ -546,6 +727,7 @@
     <symbol id="ico-wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
   </svg>
 
+  <script src="config.js" defer></script>
   <script src="main.js" defer onerror="document.documentElement.classList.remove('js')"></script>
 </body>
 </html>

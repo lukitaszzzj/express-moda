@@ -27,7 +27,115 @@
       "assets/img/remera-basica-esc-v-i26-2.webp"
     ],
     "descripcion": "Remera Basica Escote V Confeccionada En Algodon 100%. · Composición: 100% Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/remera-basica-esc-v-i26/"
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-basica-esc-v-i26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Blanco",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "6",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "7",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "6",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "7",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "6",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "7",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "329660359",
@@ -53,7 +161,50 @@
       "assets/img/remera-los-angeles-2.webp"
     ],
     "descripcion": "Remeron Manga Larga Con Estampa Al Frente. · Composición: 100% Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/remera-los-angeles/"
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-los-angeles/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Blanco",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "329660375",
@@ -79,7 +230,50 @@
       "assets/img/remera-escote-cuadrado-i26-2.webp"
     ],
     "descripcion": "Remera De Morley Soft Con Escote Cuadrado. · Composición: 93%rayon 7%spandex",
-    "urlTienda": "https://expressmoda.com.ar/productos/remera-escote-cuadrado-i26/"
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-escote-cuadrado-i26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Crudo",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "2",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "330909030",
@@ -106,7 +300,70 @@
       "assets/img/remera-julieta-2.webp"
     ],
     "descripcion": "Remera Cruzada Con Caida Y Escote En V. · Composición: Viscosa 96% Lycra 4%",
-    "urlTienda": "https://expressmoda.com.ar/productos/remera-julieta/"
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-julieta/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Bordo",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "204998241",
@@ -130,7 +387,25 @@
       "assets/img/camisa-degas-2.webp"
     ],
     "descripcion": "Camisa De Poplin · Composición: 100% Rayon",
-    "urlTienda": "https://expressmoda.com.ar/productos/camisa-degas/"
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-degas/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "3",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "294542357",
@@ -156,7 +431,35 @@
       "assets/img/camisa-florencia-2.webp"
     ],
     "descripcion": "Camisa Florencia · Composición: Polyester",
-    "urlTienda": "https://expressmoda.com.ar/productos/camisa-florencia/"
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-florencia/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "5",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "332372692",
@@ -182,7 +485,50 @@
       "assets/img/blusa-boho-2.webp"
     ],
     "descripcion": "Blusa Con Volados En Manga Y Lazo En Espalda. · Composición: 100% Poliester",
-    "urlTienda": "https://expressmoda.com.ar/productos/blusa-boho/"
+    "urlTienda": "https://expressmoda.com.ar/productos/blusa-boho/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Bordo",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "335016562",
@@ -208,7 +554,50 @@
       "assets/img/camisa-de-broderie-2.webp"
     ],
     "descripcion": "Camisa De Broderie Con Cuello Alto Y Puntillas Al Frente. · Composición: 100% Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/camisa-de-broderie/"
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-de-broderie/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Blanco",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "353264657",
@@ -234,7 +623,50 @@
       "assets/img/camisa-rayas-2.webp"
     ],
     "descripcion": "Composición: 100% Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/camisa-rayas/"
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-rayas/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Celeste",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "335009635",
@@ -261,7 +693,60 @@
       "assets/img/blazer-romina-2.webp"
     ],
     "descripcion": "Blazer Clasico De Dama. · Composición: 97%poliester 3%spandex",
-    "urlTienda": "https://expressmoda.com.ar/productos/blazer-romina/"
+    "urlTienda": "https://expressmoda.com.ar/productos/blazer-romina/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Marron",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "5",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "335009644",
@@ -287,7 +772,35 @@
       "assets/img/blazer-espiga-2.webp"
     ],
     "descripcion": "Blazer Clasico De Dama. · Composición: 65poli 33rayon 2spandex",
-    "urlTienda": "https://expressmoda.com.ar/productos/blazer-espiga/"
+    "urlTienda": "https://expressmoda.com.ar/productos/blazer-espiga/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Espigado",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Espigado",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Espigado",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Espigado",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Espigado",
+        "talle": "5",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "349688318",
@@ -314,7 +827,70 @@
       "assets/img/blazer-sf-2.webp"
     ],
     "descripcion": "Abrigo Corto Cruzado Sin Forrar.",
-    "urlTienda": "https://expressmoda.com.ar/productos/blazer-sf/"
+    "urlTienda": "https://expressmoda.com.ar/productos/blazer-sf/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "306603898",
@@ -341,7 +917,70 @@
       "assets/img/buzo-jaspe-2.webp"
     ],
     "descripcion": "Buzo Con Escote Polo Y Botones Al Frente. · Composición: 73%poli 27%alg",
-    "urlTienda": "https://expressmoda.com.ar/productos/buzo-jaspe/"
+    "urlTienda": "https://expressmoda.com.ar/productos/buzo-jaspe/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Celeste",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "3",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "334997448",
@@ -368,7 +1007,60 @@
       "assets/img/sweater-sofftie-redondo-2467-2.webp"
     ],
     "descripcion": "Sweater Softtie Redondo",
-    "urlTienda": "https://expressmoda.com.ar/productos/sweater-sofftie-redondo-2467/"
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-sofftie-redondo-2467/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "295972304",
@@ -395,7 +1087,70 @@
       "assets/img/buzo-calcita-2.webp"
     ],
     "descripcion": "Buzo Calcita · Composición: Alg/poliester- Algodon Poliester",
-    "urlTienda": "https://expressmoda.com.ar/productos/buzo-calcita/"
+    "urlTienda": "https://expressmoda.com.ar/productos/buzo-calcita/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Celeste",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "3",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "329660458",
@@ -420,7 +1175,30 @@
       "assets/img/sweater-lurex-w26-2.webp"
     ],
     "descripcion": "Sweater De Corte Oversize Con Lurex. · Composición: 47rayon 31poli 19nylon 3lurex",
-    "urlTienda": "https://expressmoda.com.ar/productos/sweater-lurex-w26/"
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-lurex-w26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Gris",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "329660216",
@@ -446,7 +1224,50 @@
       "assets/img/campera-corta-w2067-2.webp"
     ],
     "descripcion": "Campera 2067",
-    "urlTienda": "https://expressmoda.com.ar/productos/campera-corta-w2067/"
+    "urlTienda": "https://expressmoda.com.ar/productos/campera-corta-w2067/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Bordo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "329660270",
@@ -474,7 +1295,85 @@
       "assets/img/abrigo-rosalia-2.webp"
     ],
     "descripcion": "Abrigo Largo Entallado Con Botones Al Frente Y Tajo Trasero. · Composición: 88%poliester 10%rayon 2%spandex",
-    "urlTienda": "https://expressmoda.com.ar/productos/abrigo-rosalia/"
+    "urlTienda": "https://expressmoda.com.ar/productos/abrigo-rosalia/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "3",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "2",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "5",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "333998244",
@@ -498,7 +1397,25 @@
       "assets/img/abrigo-trench-2.webp"
     ],
     "descripcion": "Abrigo Largo Tipo Trench Con Lazo En La Cintura · Composición: 85%mix 15%lana",
-    "urlTienda": "https://expressmoda.com.ar/productos/abrigo-trench/"
+    "urlTienda": "https://expressmoda.com.ar/productos/abrigo-trench/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "352282417",
@@ -525,7 +1442,70 @@
       "assets/img/abrigo-cruzado-sf-2.webp"
     ],
     "descripcion": "Abrigo Corto Cruzado Sin Forrar. · Composición: 85%mix 15%lana",
-    "urlTienda": "https://expressmoda.com.ar/productos/abrigo-cruzado-sf/"
+    "urlTienda": "https://expressmoda.com.ar/productos/abrigo-cruzado-sf/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "321660492",
@@ -549,7 +1529,25 @@
       "assets/img/pollera-de-jean-v26-2.webp"
     ],
     "descripcion": "Pollera De Jean V26 · Composición: Algodon Poliester Spandex",
-    "urlTienda": "https://expressmoda.com.ar/productos/pollera-de-jean-v26/"
+    "urlTienda": "https://expressmoda.com.ar/productos/pollera-de-jean-v26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "30",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "34",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "321660633",
@@ -577,7 +1575,70 @@
       "assets/img/short-roll-up-2.webp"
     ],
     "descripcion": "Short Roll Up · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/short-roll-up/"
+    "urlTienda": "https://expressmoda.com.ar/productos/short-roll-up/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "26",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "28",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "30",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "36",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "26",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "36",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "313675241",
@@ -602,7 +1663,40 @@
       "assets/img/short-tanzanita-2.webp"
     ],
     "descripcion": "Short Tanzanita · Composición: Lino-rayon- 55% Lino 45% Rayon",
-    "urlTienda": "https://expressmoda.com.ar/productos/short-tanzanita/"
+    "urlTienda": "https://expressmoda.com.ar/productos/short-tanzanita/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "28",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "32",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "300021377",
@@ -630,7 +1724,85 @@
       "assets/img/short-turquesa-2.webp"
     ],
     "descripcion": "Short Turquesa · Composición: Alg/poliester- Algodon Poliester",
-    "urlTienda": "https://expressmoda.com.ar/productos/short-turquesa/"
+    "urlTienda": "https://expressmoda.com.ar/productos/short-turquesa/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Celeste",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "3",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "5",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "2",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "5",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "4",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "321661107",
@@ -660,7 +1832,130 @@
       "assets/img/jean-wide-leg-i26-2.webp"
     ],
     "descripcion": "Jean Tiro Medio De Corte Wide Leg. · Composición: 81% Algodon 17% Poliester 2% Elastano",
-    "urlTienda": "https://expressmoda.com.ar/productos/jean-wide-leg-i26/"
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-wide-leg-i26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "26",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "30",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "28",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "36",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "26",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "36",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "26",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "28",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "36",
+        "stock": true
+      },
+      {
+        "color": "Óxido",
+        "talle": "26",
+        "stock": true
+      },
+      {
+        "color": "Óxido",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Óxido",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Óxido",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Óxido",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Óxido",
+        "talle": "36",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "353264699",
@@ -690,7 +1985,130 @@
       "assets/img/jean-flare-i26-2.webp"
     ],
     "descripcion": "Composición: 81% Algodon 17% Poliester 2% Elastano",
-    "urlTienda": "https://expressmoda.com.ar/productos/jean-flare-i26/"
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-flare-i26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "26",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "36",
+        "stock": true
+      },
+      {
+        "color": "Azul claro",
+        "talle": "26",
+        "stock": true
+      },
+      {
+        "color": "Azul claro",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Azul claro",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Azul claro",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Azul claro",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Azul claro",
+        "talle": "36",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "26",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "36",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "26",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "34",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "36",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "353264664",
@@ -718,7 +2136,45 @@
       "assets/img/jean-pata-ancha-i26-2.webp"
     ],
     "descripcion": "Jean Tiro Alto De Corte Palazzo. · Composición: 81% Algodon 17% Poliester 2% Elastano",
-    "urlTienda": "https://expressmoda.com.ar/productos/jean-pata-ancha-i26/"
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-pata-ancha-i26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "26",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "31",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "36",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "353264691",
@@ -746,7 +2202,45 @@
       "assets/img/jean-baggy-i26-2.webp"
     ],
     "descripcion": "Composición: 81% Algodon 17% Poliester 2% Elastano",
-    "urlTienda": "https://expressmoda.com.ar/productos/jean-baggy-i26/"
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-baggy-i26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "26",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "36",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "26",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "329660236",
@@ -774,7 +2268,65 @@
       "assets/img/calza-luciana-2.webp"
     ],
     "descripcion": "Calza Semi Oxford Con Cintura Alta Que Se Puede Doblar. · Composición: 92%rayon 5%spadex",
-    "urlTienda": "https://expressmoda.com.ar/productos/calza-luciana/"
+    "urlTienda": "https://expressmoda.com.ar/productos/calza-luciana/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Gris",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "12",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "5",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "329660254",
@@ -800,7 +2352,50 @@
       "assets/img/pantalon-marcela-2.webp"
     ],
     "descripcion": "Pantalon Recto Elastizado Con Cartera Falsa. · Composición: 50%rayon 50%poliester",
-    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-marcela/"
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-marcela/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Ray.negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Ray.negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Ray.negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Ray.negro",
+        "talle": "4",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "330907941",
@@ -830,7 +2425,105 @@
       "assets/img/pantalon-sodalita-2.webp"
     ],
     "descripcion": "Pantalon Sodalita · Composición: Algodon Spandex- Algodon 96% Spandex 4%",
-    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-sodalita/"
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-sodalita/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "28",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "36",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "38",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Camel",
+        "talle": "28",
+        "stock": false
+      },
+      {
+        "color": "Camel",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "36",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "38",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "28",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "30",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "32",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "34",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "36",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "38",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "335003243",
@@ -857,7 +2550,60 @@
       "assets/img/pantalon-romina-2.webp"
     ],
     "descripcion": "Pantalon Sastrero Clasico De Corte Recto. · Composición: 97%poliester 3%spandex",
-    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-romina/"
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-romina/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Marron",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "5",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "5",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "300256424",
@@ -884,7 +2630,70 @@
       "assets/img/vestido-citrino-2.webp"
     ],
     "descripcion": "Vestido Citrino · Composición: Rayon Lino- 90 Rayon 10 Lino",
-    "urlTienda": "https://expressmoda.com.ar/productos/vestido-citrino/"
+    "urlTienda": "https://expressmoda.com.ar/productos/vestido-citrino/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "3",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "4",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "303892753",
@@ -909,7 +2718,40 @@
       "assets/img/vestido-cuarzo-2.webp"
     ],
     "descripcion": "Vestido Cuarzo · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/vestido-cuarzo/"
+    "urlTienda": "https://expressmoda.com.ar/productos/vestido-cuarzo/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "3",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "298416345",
@@ -937,7 +2779,85 @@
       "assets/img/vestido-apofilita-2.webp"
     ],
     "descripcion": "Vestido Apofilita · Composición: Lino-rayon- 55% Lino 45% Rayon",
-    "urlTienda": "https://expressmoda.com.ar/productos/vestido-apofilita/"
+    "urlTienda": "https://expressmoda.com.ar/productos/vestido-apofilita/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Celeste",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Natural",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Natural",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Natural",
+        "talle": "3",
+        "stock": false
+      },
+      {
+        "color": "Natural",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Verde",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Natural",
+        "talle": "5",
+        "stock": false
+      },
+      {
+        "color": "Verde",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Verde",
+        "talle": "5",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "299305577",
@@ -963,7 +2883,35 @@
       "assets/img/vestido-hematita-2.webp"
     ],
     "descripcion": "Vestido Hematita · Composición: Rayon-nylon- 52%rayon 48%nylon",
-    "urlTienda": "https://expressmoda.com.ar/productos/vestido-hematita/"
+    "urlTienda": "https://expressmoda.com.ar/productos/vestido-hematita/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "32",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "262363901",
@@ -999,7 +2947,270 @@
       "assets/img/sweater-cuello-o-portland-2.webp"
     ],
     "descripcion": "Sweater Cuello O Portland · Composición: Viscosa - Nylon- Viscosa Nylon",
-    "urlTienda": "https://expressmoda.com.ar/productos/sweater-cuello-o-portland/"
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-cuello-o-portland/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Arena",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Arena",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Arena",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Arena",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Arena",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Arena",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Malva",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Malva",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Malva",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Malva",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "262363930",
@@ -1029,7 +3240,135 @@
       "assets/img/sweater-escote-v-oregon-2.webp"
     ],
     "descripcion": "Sweater Escote V Oregon · Composición: Viscosa - Nylon- Viscosa Nylon",
-    "urlTienda": "https://expressmoda.com.ar/productos/sweater-escote-v-oregon/"
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-escote-v-oregon/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Bordo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Petroleo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Petroleo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Petroleo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Petroleo",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Petroleo",
+        "talle": "XXL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "322799095",
@@ -1061,7 +3400,190 @@
       "assets/img/sweater-cuello-redondo-liso-liguria-2.webp"
     ],
     "descripcion": "Sweater Cuello Redondo Liso Liguria · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/sweater-cuello-redondo-liso-liguria/"
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-cuello-redondo-liso-liguria/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Amarillo",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Amarillo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Amarillo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Amarillo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Amarillo",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Amarillo",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "XL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "295614936",
@@ -1093,7 +3615,185 @@
       "assets/img/sweater-medio-cierre-liso-niza-2.webp"
     ],
     "descripcion": "Sweater Medio Cierre Liso Niza · Composición: Viscosa - Nylon- Viscosa Nylon",
-    "urlTienda": "https://expressmoda.com.ar/productos/sweater-medio-cierre-liso-niza/"
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-medio-cierre-liso-niza/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Arena",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Arena",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Arena",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Arena",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Arena",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Verde Musgo",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Verde Musgo",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Verde Musgo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Navy",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Navy",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Navy",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Verde Musgo",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Navy",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Verde Musgo",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Navy",
+        "talle": "XXL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "240116334",
@@ -1130,7 +3830,315 @@
       "assets/img/jean-regular-gabardina-2.webp"
     ],
     "descripcion": "Jean Regular Gabardina · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/jean-regular-gabardina/"
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-regular-gabardina/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "58",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "60",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "58",
+        "stock": true
+      },
+      {
+        "color": "Cemento",
+        "talle": "60",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "58",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "60",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "58",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "60",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "58",
+        "stock": true
+      },
+      {
+        "color": "Tiza",
+        "talle": "60",
+        "stock": true
+      },
+      {
+        "color": "Tostado",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Tostado",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Tostado",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Tostado",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Tostado",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Tostado",
+        "talle": "58",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "226946925",
@@ -1166,7 +4174,325 @@
       "assets/img/jean-oregon-slim-color-2.webp"
     ],
     "descripcion": "Jean Oregon Slim Color · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/jean-oregon-slim-color/"
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-oregon-slim-color/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "40",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "56",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "50",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "40",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "50",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "56",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "50",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Tostado",
+        "talle": "40",
+        "stock": false
+      },
+      {
+        "color": "Tostado",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Tostado",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "56",
+        "stock": false
+      },
+      {
+        "color": "Tostado",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "56",
+        "stock": false
+      },
+      {
+        "color": "Tostado",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Tostado",
+        "talle": "50",
+        "stock": false
+      },
+      {
+        "color": "Tostado",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Tostado",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "56",
+        "stock": false
+      },
+      {
+        "color": "Tostado",
+        "talle": "56",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "295614901",
@@ -1199,7 +4525,175 @@
       "assets/img/jean-relaxed-budapest-2.webp"
     ],
     "descripcion": "Jean Relaxed Budapest · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/jean-relaxed-budapest/"
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-relaxed-budapest/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Blue",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Blue",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Blue",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Blue",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Blue",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Blue",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Blue",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Blue",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "40",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "St.wash",
+        "talle": "40",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "St.wash",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "St.wash",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "St.wash",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "54",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "347337234",
@@ -1230,7 +4724,130 @@
       "assets/img/jean-slim-londres-2.webp"
     ],
     "descripcion": "Jean Slim Londres · Composición: Alg/pol/elast- Algodon Poliester Elastano",
-    "urlTienda": "https://expressmoda.com.ar/productos/jean-slim-londres/"
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-slim-londres/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "50",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "St.wash",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "St.wash",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "50",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "St.wash",
+        "talle": "52",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "241686462",
@@ -1265,7 +4882,290 @@
       "assets/img/chomba-pique-ibiza-manga-corta-2.webp"
     ],
     "descripcion": "Chomba Pique Ibiza Manga Corta · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/chomba-pique-ibiza-manga-corta/"
+    "urlTienda": "https://expressmoda.com.ar/productos/chomba-pique-ibiza-manga-corta/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Aero",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Aero",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Aero",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Aero",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Aero",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Aero",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Aero",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Gris melange",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Gris melange",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Gris melange",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Gris melange",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris melange",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Gris melange",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Gris melange",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "4XL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "267497982",
@@ -1299,7 +5199,235 @@
       "assets/img/remera-manga-larga-lisa-girona-2.webp"
     ],
     "descripcion": "Remera Manga Larga Lisa Girona · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/remera-manga-larga-lisa-girona/"
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-manga-larga-lisa-girona/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Aero",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Aero",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Aero",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Aero",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Arena",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Aero",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Arena",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Arena",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Arena",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Arena",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Celeste Oscuro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Celeste Oscuro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Celeste Oscuro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Celeste Oscuro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Oliva",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Oliva",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Oliva",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Celeste Oscuro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Vison",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Vison",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Vison",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Vison",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Vison",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Oliva",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Oliva",
+        "talle": "XXL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "274860321",
@@ -1333,7 +5461,255 @@
       "assets/img/remera-manga-corta-praga-lisa-2.webp"
     ],
     "descripcion": "Remera Manga Corta Praga Lisa · Composición: Poliester - Algodon- Poliester Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/remera-manga-corta-praga-lisa/"
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-manga-corta-praga-lisa/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Blanco",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "XXL",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "267498027",
@@ -1366,7 +5742,190 @@
       "assets/img/remera-manga-larga-viena-2.webp"
     ],
     "descripcion": "Remera Manga Larga Viena · Composición: Poliester - Algodon- Poliester Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/remera-manga-larga-viena/"
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-manga-larga-viena/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "3XL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "329816910",
@@ -1394,7 +5953,65 @@
       "assets/img/camisa-vestir-slim-dandy-cuello-abierto-2.webp"
     ],
     "descripcion": "Camisa Vestir Slim Dandy Cuello Abierto · Composición: Poliester - Algodon- Poliester Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/camisa-vestir-slim-dandy-cuello-abierto/"
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-vestir-slim-dandy-cuello-abierto/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Blanco",
+        "talle": "38",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "39",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "38",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "46",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "267497259",
@@ -1429,7 +6046,220 @@
       "assets/img/camisa-corderoy-regular-lexington-m-l-2.webp"
     ],
     "descripcion": "Camisa Corderoy Regular Lexington M.l · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/camisa-corderoy-regular-lexington-m-l/"
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-corderoy-regular-lexington-m-l/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Camel",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Camel",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Camel",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Malva",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Malva",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "4XL",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "329817713",
@@ -1460,7 +6290,135 @@
       "assets/img/camisa-sport-regular-lombardia-m-l-2.webp"
     ],
     "descripcion": "Camisa Sport Regular Lombardia M.l · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/camisa-sport-regular-lombardia-m-l/"
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-sport-regular-lombardia-m-l/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "40",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Celeste",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Celeste",
+        "talle": "M",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "347337293",
@@ -1490,7 +6448,105 @@
       "assets/img/camisa-sport-regular-york-m-larga-2.webp"
     ],
     "descripcion": "Camisa Sport Regular York M.larga · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/camisa-sport-regular-york-m-larga/"
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-sport-regular-york-m-larga/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Verde",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "X",
+        "talle": "S",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "296451711",
@@ -1526,7 +6582,245 @@
       "assets/img/pantalon-chino-regular-vermont-2.webp"
     ],
     "descripcion": "Pantalon Chino Regular Vermont · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-chino-regular-vermont/"
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-chino-regular-vermont/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "40",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "D",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "50",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "56",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "44",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "50",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "50",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "56",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "50",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "329817615",
@@ -1561,7 +6855,260 @@
       "assets/img/pantalon-chino-slim-austria-2.webp"
     ],
     "descripcion": "Pantalon Chino Slim Austria · Composición: Algodon Spandex- Algodon 96% Spandex 4%",
-    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-chino-slim-austria/"
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-chino-slim-austria/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "38",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "48",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "38",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "52",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Kaki",
+        "talle": "38",
+        "stock": false
+      },
+      {
+        "color": "Kaki",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Kaki",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Kaki",
+        "talle": "46",
+        "stock": false
+      },
+      {
+        "color": "Kaki",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Kaki",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Kaki",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "38",
+        "stock": true
+      },
+      {
+        "color": "Kaki",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "40",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "42",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "46",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "38",
+        "stock": true
+      },
+      {
+        "color": "Kaki",
+        "talle": "54",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Kaki",
+        "talle": "56",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "50",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "42",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "48",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "44",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "54",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "56",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "52",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "40",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "46",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "320027472",
@@ -1591,7 +7138,130 @@
       "assets/img/bermudas-china-gabardina-mykonos-2.webp"
     ],
     "descripcion": "Bermudas China Gabardina Mykonos · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/bermudas-china-gabardina-mykonos/"
+    "urlTienda": "https://expressmoda.com.ar/productos/bermudas-china-gabardina-mykonos/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Azul",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Azul",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Camel",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Camel",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "320027416",
@@ -1621,7 +7291,105 @@
       "assets/img/pantalon-cargo-gabard-jogger-creta-2.webp"
     ],
     "descripcion": "Pantalon Cargo Gabard.jogger Creta · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-cargo-gabard-jogger-creta/"
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-cargo-gabard-jogger-creta/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "262363461",
@@ -1648,7 +7416,60 @@
       "assets/img/camisaco-turin-2.webp"
     ],
     "descripcion": "Camisaco Turin · Composición: Poliester-sp- 92% Poliester 8% Spandex",
-    "urlTienda": "https://expressmoda.com.ar/productos/camisaco-turin/"
+    "urlTienda": "https://expressmoda.com.ar/productos/camisaco-turin/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "XXL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "262363554",
@@ -1676,7 +7497,85 @@
       "assets/img/campera-aspen-inflada-c-capucha-2.webp"
     ],
     "descripcion": "Campera Aspen Inflada C.capucha · Composición: Polyester",
-    "urlTienda": "https://expressmoda.com.ar/productos/campera-aspen-inflada-c-capucha/"
+    "urlTienda": "https://expressmoda.com.ar/productos/campera-aspen-inflada-c-capucha/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Black",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Black",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Black",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Black",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Blue",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Black",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Blue",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Blue",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Blue",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Green",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Green",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Green",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Blue",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Green",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Green",
+        "talle": "XXL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "262363871",
@@ -1705,7 +7604,110 @@
       "assets/img/sobretodo-recto-con-cuello-viena-2.webp"
     ],
     "descripcion": "Sobretodo Recto Con Cuello Viena · Composición: Poliester Rayon Spandex",
-    "urlTienda": "https://expressmoda.com.ar/productos/sobretodo-recto-con-cuello-viena/"
+    "urlTienda": "https://expressmoda.com.ar/productos/sobretodo-recto-con-cuello-viena/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Gris Oscuro",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Vison",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Vison",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Vison",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Vison",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Vison",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "267497511",
@@ -1733,7 +7735,85 @@
       "assets/img/gaban-estocolmo-derecho-2.webp"
     ],
     "descripcion": "Gaban Estocolmo Derecho · Composición: Poliester Mezcla",
-    "urlTienda": "https://expressmoda.com.ar/productos/gaban-estocolmo-derecho/"
+    "urlTienda": "https://expressmoda.com.ar/productos/gaban-estocolmo-derecho/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Marron",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Marron",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Verde",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Verde",
+        "talle": "XXL",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "205088131",
@@ -1766,7 +7846,220 @@
       "assets/img/boxer-con-lycra-stanford-polo-club-2.webp"
     ],
     "descripcion": "Boxer Con Lycra Stanford Polo Club · Composición: Lycra",
-    "urlTienda": "https://expressmoda.com.ar/productos/boxer-con-lycra-stanford-polo-club/"
+    "urlTienda": "https://expressmoda.com.ar/productos/boxer-con-lycra-stanford-polo-club/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Blanco",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "61",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "61",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Malva",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Malva",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "61",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "61",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Malva",
+        "talle": "61",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Malva",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "61",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "61",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "205147959",
@@ -1804,7 +8097,370 @@
       "assets/img/slip-stanford-polo-club-2.webp"
     ],
     "descripcion": "Slip Stanford Polo Club · Composición: Algodon",
-    "urlTienda": "https://expressmoda.com.ar/productos/slip-stanford-polo-club/"
+    "urlTienda": "https://expressmoda.com.ar/productos/slip-stanford-polo-club/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Blanco",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Blanco",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Francia",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Blanco",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Francia",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris Medio",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Francia",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Gris Medio",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Francia",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Francia",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Francia",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Gris Claro",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "XXL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Gris Medio",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Gris Medio",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris Medio",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris Medio",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Rosa",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Militar",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Militar",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3XL",
+        "stock": false
+      },
+      {
+        "color": "Rojo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Rojo",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Rosa",
+        "talle": "3XL",
+        "stock": true
+      },
+      {
+        "color": "Varios",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Varios",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Varios",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Varios",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Varios",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Varios",
+        "talle": "3XL",
+        "stock": true
+      }
+    ]
   },
   {
     "id": "320026981",
@@ -1831,7 +8487,15 @@
       "assets/img/gorra-cap-gabardina-lavada-07n-2.webp"
     ],
     "descripcion": "Gorra Cap Gabardina Lavada 07n · Composición: Polyester",
-    "urlTienda": "https://expressmoda.com.ar/productos/gorra-cap-gabardina-lavada-07n/"
+    "urlTienda": "https://expressmoda.com.ar/productos/gorra-cap-gabardina-lavada-07n/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Azul",
+        "talle": "S",
+        "stock": false
+      }
+    ]
   },
   {
     "id": "320027099",
@@ -1855,6 +8519,678 @@
       "assets/img/mochila-con-cierres-b3002-2.webp"
     ],
     "descripcion": "Mochila Con Cierres B3002 · Composición: Polyester",
-    "urlTienda": "https://expressmoda.com.ar/productos/mochila-con-cierres-b3002/"
+    "urlTienda": "https://expressmoda.com.ar/productos/mochila-con-cierres-b3002/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Gris",
+        "talle": "S",
+        "stock": false
+      }
+    ]
+  },
+  {
+    "id": "355707751",
+    "slug": "chaqueta-con-cuello",
+    "nombre": "Chaqueta Con Cuello",
+    "genero": "mujer",
+    "subcategoria": "Camperas y abrigos",
+    "precio": 99999,
+    "precioHasta": null,
+    "precioPromo": 79999,
+    "colores": [
+      "Beige",
+      "Bordo",
+      "Gris"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/chaqueta-con-cuello.webp",
+      "assets/img/chaqueta-con-cuello-2.webp"
+    ],
+    "descripcion": "Chaqueta Con Cuello",
+    "urlTienda": "https://expressmoda.com.ar/productos/chaqueta-con-cuello/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "1",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Gris",
+        "talle": "3",
+        "stock": false
+      },
+      {
+        "color": "Gris",
+        "talle": "4",
+        "stock": true
+      }
+    ],
+    "nuevo": 1
+  },
+  {
+    "id": "354197274",
+    "slug": "campera-peluche-703",
+    "nombre": "Campera Peluche 703",
+    "genero": "mujer",
+    "subcategoria": "Camperas y abrigos",
+    "precio": 149999,
+    "precioHasta": null,
+    "precioPromo": 104999,
+    "colores": [
+      "Beige",
+      "Chocolate",
+      "Crudo",
+      "Negro"
+    ],
+    "talles": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/campera-peluche-703.webp",
+      "assets/img/campera-peluche-703-2.webp"
+    ],
+    "descripcion": "Campera Peluche 703 · Composición: Polyester-",
+    "urlTienda": "https://expressmoda.com.ar/productos/campera-peluche-703/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Chocolate",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Chocolate",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Crudo",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "L",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XXL",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "M",
+        "stock": false
+      }
+    ],
+    "nuevo": 2
+  },
+  {
+    "id": "353273572",
+    "slug": "sacon-oversize-i26",
+    "nombre": "Sacon Oversize I26",
+    "genero": "mujer",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 69999,
+    "precioHasta": null,
+    "precioPromo": 55999,
+    "colores": [
+      "Chocolate",
+      "Gris Oscuro",
+      "Negro"
+    ],
+    "talles": [
+      "SM",
+      "ML"
+    ],
+    "fotos": [
+      "assets/img/sacon-oversize-i26.webp",
+      "assets/img/sacon-oversize-i26-2.webp"
+    ],
+    "descripcion": "Sacon Oversize",
+    "urlTienda": "https://expressmoda.com.ar/productos/sacon-oversize-i26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Chocolate",
+        "talle": "ML",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "SM",
+        "stock": false
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "ML",
+        "stock": true
+      },
+      {
+        "color": "Gris Oscuro",
+        "talle": "SM",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "ML",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "SM",
+        "stock": true
+      }
+    ],
+    "nuevo": 3
+  },
+  {
+    "id": "353264814",
+    "slug": "sweater-cuello-v-i26",
+    "nombre": "Sweater Cuello V I26",
+    "genero": "mujer",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 69999,
+    "precioHasta": null,
+    "precioPromo": 55999,
+    "colores": [
+      "Bordo",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3"
+    ],
+    "fotos": [
+      "assets/img/sweater-cuello-v-i26.webp",
+      "assets/img/sweater-cuello-v-i26-2.webp"
+    ],
+    "descripcion": "Sweater Cuello V I25",
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-cuello-v-i26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Bordo",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      }
+    ],
+    "nuevo": 4
+  },
+  {
+    "id": "353264805",
+    "slug": "poleron-trenzado-2476",
+    "nombre": "Poleron Trenzado 2476",
+    "genero": "mujer",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 59999,
+    "precioHasta": 69999,
+    "precioPromo": 41999,
+    "colores": [
+      "Beige",
+      "Chocolate",
+      "Crudo",
+      "Negro"
+    ],
+    "talles": [
+      "S",
+      "M"
+    ],
+    "fotos": [
+      "assets/img/poleron-trenzado-2476.webp",
+      "assets/img/poleron-trenzado-2476-2.webp"
+    ],
+    "descripcion": "Poleron Trenzado",
+    "urlTienda": "https://expressmoda.com.ar/productos/poleron-trenzado-2476/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Beige",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Chocolate",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Chocolate",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "M",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Crudo",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      }
+    ],
+    "nuevo": 5
+  },
+  {
+    "id": "353264784",
+    "slug": "polera-con-botones",
+    "nombre": "Polera Con Botones",
+    "genero": "mujer",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 69999,
+    "precioHasta": null,
+    "precioPromo": 55999,
+    "colores": [
+      "Bordo",
+      "Gris Melange",
+      "Negro"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "fotos": [
+      "assets/img/polera-con-botones.webp",
+      "assets/img/polera-con-botones-2.webp"
+    ],
+    "descripcion": "Sweater Polera Con Detalle De Botones En Puño Y Cuello.",
+    "urlTienda": "https://expressmoda.com.ar/productos/polera-con-botones/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Bordo",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "S",
+        "stock": false
+      },
+      {
+        "color": "Bordo",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Gris Melange",
+        "talle": "XL",
+        "stock": false
+      },
+      {
+        "color": "Negro",
+        "talle": "L",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "M",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "S",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "XL",
+        "stock": true
+      }
+    ],
+    "nuevo": 6
+  },
+  {
+    "id": "353264765",
+    "slug": "poleron-pelo-de-mono",
+    "nombre": "Poleron Pelo De Mono",
+    "genero": "mujer",
+    "subcategoria": "Remeras y tops",
+    "precio": 34999,
+    "precioHasta": null,
+    "precioPromo": 27999,
+    "colores": [
+      "Beige",
+      "Marron",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3"
+    ],
+    "fotos": [
+      "assets/img/poleron-pelo-de-mono.webp",
+      "assets/img/poleron-pelo-de-mono-2.webp"
+    ],
+    "descripcion": "Poleron Pelo De Mono",
+    "urlTienda": "https://expressmoda.com.ar/productos/poleron-pelo-de-mono/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Beige",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Beige",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Marron",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      }
+    ],
+    "nuevo": 7
+  },
+  {
+    "id": "353264745",
+    "slug": "polera-basica-i26",
+    "nombre": "Polera Basica I26",
+    "genero": "mujer",
+    "subcategoria": "Remeras y tops",
+    "precio": 24999,
+    "precioHasta": null,
+    "precioPromo": 19999,
+    "colores": [
+      "Bordo",
+      "Marino",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "fotos": [
+      "assets/img/polera-basica-i26.webp",
+      "assets/img/polera-basica-i26-2.webp"
+    ],
+    "descripcion": "Composición: 95%algodon 5%spandex",
+    "urlTienda": "https://expressmoda.com.ar/productos/polera-basica-i26/",
+    "hayStock": true,
+    "variantes": [
+      {
+        "color": "Bordo",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Bordo",
+        "talle": "5",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Marino",
+        "talle": "4",
+        "stock": false
+      },
+      {
+        "color": "Marino",
+        "talle": "5",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "1",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "2",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "3",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "4",
+        "stock": true
+      },
+      {
+        "color": "Negro",
+        "talle": "5",
+        "stock": true
+      }
+    ],
+    "nuevo": 8
   }
 ]

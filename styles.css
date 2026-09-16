@@ -1478,6 +1478,34 @@ html:not(.js) .card:nth-child(even) {
   text-transform: uppercase;
 }
 
+.footer__sub a {
+  font-size: inherit;
+}
+
+.footer__lead {
+  max-width: 34ch;
+  margin: 0 0 1rem;
+  font-size: 0.88rem;
+  color: rgba(244, 241, 234, 0.75);
+}
+
+.footer__addr {
+  font-size: 0.82rem;
+  color: rgba(244, 241, 234, 0.75);
+}
+
+.footer__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem 2rem;
+}
+
+.footer__bottom .footer__logo img {
+  width: 110px;
+}
+
 .footer__logo {
   display: inline-block;
   line-height: 0;

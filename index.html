@@ -318,23 +318,83 @@
 
   </main>
 
+  <!-- ============ 7. FOOTER ============ -->
+
   <footer class="footer">
-    <div class="footer__inner">
+    <div class="footer__grid">
+      <div class="footer__col">
+        <h2>Newsletter</h2>
+        <p class="footer__lead">Novedades, lanzamientos y promos de la tienda. Sin spam.</p>
+        <form class="nl" id="nl-form" novalidate>
+          <label class="visually-hidden" for="nl-email">Tu email</label>
+          <input id="nl-email" type="email" name="email" placeholder="tu@email.com" autocomplete="email" required>
+          <button class="btn btn--light" type="submit">Suscribirme</button>
+        </form>
+        <p class="nl__msg" id="nl-msg" aria-live="polite"></p>
+      </div>
+
+      <div class="footer__col">
+        <h2>Categorías</h2>
+        <p class="footer__sub"><a href="#catalogo/mujer">Mujer</a></p>
+        <ul>
+          <li><a href="#catalogo/mujer/remeras-y-tops">Remeras y tops</a></li>
+          <li><a href="#catalogo/mujer/blusas-y-camisas">Blusas y camisas</a></li>
+          <li><a href="#catalogo/mujer/sacos-y-blazer">Sacos y blazer</a></li>
+          <li><a href="#catalogo/mujer/buzos-y-sweaters">Buzos y sweaters</a></li>
+          <li><a href="#catalogo/mujer/camperas-y-abrigos">Camperas y abrigos</a></li>
+          <li><a href="#catalogo/mujer/polleras-y-shorts">Polleras y shorts</a></li>
+          <li><a href="#catalogo/mujer/jeans">Jeans</a></li>
+          <li><a href="#catalogo/mujer/pantalones-y-calzas">Pantalones y calzas</a></li>
+          <li><a href="#catalogo/mujer/vestidos-y-monos">Vestidos y monos</a></li>
+        </ul>
+        <p class="footer__sub"><a href="#catalogo/hombre">Hombre</a></p>
+        <ul>
+          <li><a href="#catalogo/hombre/chombas-y-remeras">Chombas y remeras</a></li>
+          <li><a href="#catalogo/hombre/camisas">Camisas</a></li>
+          <li><a href="#catalogo/hombre/buzos-y-sweaters">Buzos y sweaters</a></li>
+          <li><a href="#catalogo/hombre/pantalones-y-bermudas">Pantalones y bermudas</a></li>
+          <li><a href="#catalogo/hombre/jeans">Jeans</a></li>
+          <li><a href="#catalogo/hombre/camperas-abrigos-y-sacos">Camperas, abrigos y sacos</a></li>
+          <li><a href="#catalogo/hombre/accesorios-y-complementos">Accesorios y complementos</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h2>Contacto</h2>
+        <ul>
+          <li><a href="https://wa.me/5491127120131?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener">WhatsApp +54 9 11 2712 0131</a></li>
+          <!-- Placeholder: reemplazar por el email real -->
+          <li>Email: [EMAIL]</li>
+          <!-- Placeholder: reemplazar el href por la URL del perfil y el texto por "Instagram" -->
+          <li><a href="#instagram">Instagram: [INSTAGRAM]</a></li>
+          <li><button class="link-btn" type="button" data-modal="modal-locales">Nuestros locales</button></li>
+          <li class="footer__addr">Castelli 1302, Güemes · Mar del Plata</li>
+          <li class="footer__addr">Av. Córdoba 4644 · Villa Crespo, CABA</li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h2>Medios de pago</h2>
+        <ul class="pay">
+          <li><img src="assets/img/pagos/visa.svg" alt="Visa" width="64" height="40" loading="lazy"></li>
+          <li><img src="assets/img/pagos/mastercard.svg" alt="Mastercard" width="64" height="40" loading="lazy"></li>
+          <li><img src="assets/img/pagos/amex.svg" alt="American Express" width="64" height="40" loading="lazy"></li>
+          <li><img src="assets/img/pagos/cabal.svg" alt="Cabal" width="64" height="40" loading="lazy"></li>
+          <li><img src="assets/img/pagos/naranja.svg" alt="Naranja X" width="64" height="40" loading="lazy"></li>
+          <li><img src="assets/img/pagos/nativa.svg" alt="Nativa" width="64" height="40" loading="lazy"></li>
+          <li><img src="assets/img/pagos/argencard.svg" alt="Argencard" width="64" height="40" loading="lazy"></li>
+          <li><img src="assets/img/pagos/cencosud.svg" alt="Cencosud" width="64" height="40" loading="lazy"></li>
+          <li><img src="assets/img/pagos/diners.svg" alt="Diners Club" width="64" height="40" loading="lazy"></li>
+          <li><img src="assets/img/pagos/rapipago.svg" alt="Rapipago" width="64" height="40" loading="lazy"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
       <a class="footer__logo" href="#inicio">
         <img src="assets/img/logo.png" alt="Express Moda" width="575" height="230" loading="lazy" decoding="async">
       </a>
-      <nav class="footer__nav" aria-label="Enlaces a la tienda online">
-        <a href="https://expressmoda.com.ar/" target="_blank" rel="noopener">Tienda completa</a>
-        <a href="https://expressmoda.com.ar/sale/" target="_blank" rel="noopener">Feria</a>
-        <a href="https://expressmoda.com.ar/gift-cards1/" target="_blank" rel="noopener">Gift cards</a>
-        <a href="https://expressmoda.com.ar/mas-uniformes-empresas/" target="_blank" rel="noopener">Uniformes</a>
-      </nav>
-      <!-- Placeholder: reemplazar el href por la URL del perfil de Instagram y el texto [INSTAGRAM] por "Instagram" -->
-      <a class="footer__social" href="#instagram" target="_blank" rel="noopener">
-        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.75" fill="currentColor"/></svg>
-        [INSTAGRAM]
-      </a>
-      <p class="footer__copy">Express Moda · Mar del Plata · Villa Crespo, Buenos Aires · <a href="https://wa.me/5491127120131?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener">WhatsApp +54 9 11 2712 0131</a></p>
+      <p>Express Moda · Mar del Plata · Villa Crespo, Buenos Aires · <span id="footer-year">2026</span></p>
     </div>
   </footer>
 

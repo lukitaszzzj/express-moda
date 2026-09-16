@@ -34,6 +34,7 @@
       setupProduct();
       setupCart();
       setupRecs();
+      setupNewsletter();
       setupRouter();
       watchMotionPreference();
       loadProducts();
@@ -1075,6 +1076,44 @@
 
   function setupRecs() {
     Recs.init();
+  }
+
+  /* ---------- Newsletter (simulado, guarda el email en localStorage) ---------- */
+
+  function setupNewsletter() {
+    var form = document.getElementById('nl-form');
+    var input = document.getElementById('nl-email');
+    var msg = document.getElementById('nl-msg');
+    var year = document.getElementById('footer-year');
+    if (year) { year.textContent = String(new Date().getFullYear()); }
+    if (!form || !input || !msg) { return; }
+
+    var EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+    var saved = storageGet('em_newsletter', null);
+    if (saved && saved.email) {
+      msg.textContent = '¡Listo! Ya estás suscripto.';
+      msg.className = 'nl__msg is-ok';
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var value = input.value.trim();
+      if (!EMAIL.test(value)) {
+        msg.textContent = 'Ingresá un email válido, por ejemplo nombre@dominio.com.';
+        msg.className = 'nl__msg is-error';
+        input.setAttribute('aria-invalid', 'true');
+        input.focus();
+        return;
+      }
+      storageSet('em_newsletter', { email: value, at: new Date().toISOString() });
+      input.removeAttribute('aria-invalid');
+      input.value = '';
+      msg.textContent = '¡Listo! Ya estás suscripto.';
+      msg.className = 'nl__msg is-ok';
+    });
+    input.addEventListener('input', function () {
+      if (input.getAttribute('aria-invalid')) { input.removeAttribute('aria-invalid'); msg.textContent = ''; msg.className = 'nl__msg'; }
+    });
   }
 
   /* ---------- Router por hash: #catalogo/..., #p/slug ---------- */

@@ -16,24 +16,28 @@
   var observeReveal = function (el) { el.classList.add('is-visible'); };
   var resetParallax = function () {};
 
-  try {
-    html.classList.add('js-ready');
-    mqReduce = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
-    EM.reduce = !!(mqReduce && mqReduce.matches);
+  // El arranque está al final del archivo (init), después de todas las definiciones.
+  function init() {
+    try {
+      html.classList.add('js-ready');
+      mqReduce = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+      EM.reduce = !!(mqReduce && mqReduce.matches);
 
-    splitHeroTitle();
-    setupReveal();
-    setupParallax();
-    setupMarquee();
-    setupHeader();
-    setupLayers();
-    setupSearch();
-    setupCatalog();
-    watchMotionPreference();
-    loadProducts();
-  } catch (err) {
-    html.classList.remove('js');
-    if (window.console) { console.error('Express Moda: se desactivó el movimiento por un error.', err); }
+      splitHeroTitle();
+      setupReveal();
+      setupParallax();
+      setupMarquee();
+      setupHeader();
+      setupLayers();
+      setupSearch();
+      setupCatalog();
+      setupRouter();
+      watchMotionPreference();
+      loadProducts();
+    } catch (err) {
+      html.classList.remove('js');
+      if (window.console) { console.error('Express Moda: se desactivó el movimiento por un error.', err); }
+    }
   }
 
   /* ---------- Utilidades ---------- */
@@ -462,6 +466,20 @@
   }
   EM.renderCards = renderCards;
 
+  // Muestra de inmediato lo que ya está dentro del viewport (tras un scroll instantáneo
+  // el observer puede no disparar hasta el próximo frame).
+  function revealInView() {
+    var vh = window.innerHeight;
+    var k = 0;
+    $$('.reveal:not(.is-visible)').forEach(function (el) {
+      var r = el.getBoundingClientRect();
+      if (r.bottom > 0 && r.top < vh) {
+        el.style.setProperty('--i', k++);
+        revealNow(el);
+      }
+    });
+  }
+
   // "Agregar al carrito" en tarjetas: con más de un color o talle se abre la ficha para elegir.
   document.addEventListener('click', function (e) {
     var btn = e.target.closest('[data-add]');
@@ -518,69 +536,202 @@
     });
   }
 
-  /* ---------- Catálogo (estático, con los filtros Todos / Mujer / Hombre) ---------- */
+  /* ---------- Catálogo: filtros por género y subcategoría, sincronizados con el hash ---------- */
 
-  function setupCatalog() {
-    var grid = document.getElementById('grid');
-    if (!grid) { return; }
+  var SUBCATS = {
+    mujer: ['Remeras y tops', 'Blusas y camisas', 'Sacos y blazer', 'Buzos y sweaters', 'Camperas y abrigos', 'Polleras y shorts', 'Jeans', 'Pantalones y calzas', 'Vestidos y monos'],
+    hombre: ['Chombas y remeras', 'Camisas', 'Buzos y sweaters', 'Pantalones y bermudas', 'Jeans', 'Camperas, abrigos y sacos', 'Accesorios y complementos']
+  };
+  var GENEROS = ['todos', 'mujer', 'hombre', 'feria'];
 
-    var buttons = $$('.filter');
-    var cards = $$('.card', grid);
-    var status = document.getElementById('filter-status');
-    var labels = { todos: 'prendas en total', mujer: 'prendas de mujer', hombre: 'prendas de hombre' };
-    var current = 'todos';
-    var timer = null;
+  var Catalog = {
+    state: { genero: 'todos', sub: null },
+    timer: null,
 
-    function setOffsets() {
-      var k = 0;
-      cards.forEach(function (card) {
-        if (card.hidden) { card.classList.remove('is-offset'); return; }
-        card.classList.toggle('is-offset', k % 2 === 1);
-        k++;
-      });
-    }
+    init: function () {
+      this.grid = document.getElementById('grid');
+      this.chips = document.getElementById('chips');
+      this.count = document.getElementById('catalog-count');
+      this.status = document.getElementById('filter-status');
+      this.buttons = $$('.filter[data-genero]');
+      if (!this.grid) { return; }
+      var self = this;
 
-    function applyFilter(filter, animate) {
-      if (!labels[filter]) { filter = 'todos'; }
-      current = filter;
-      buttons.forEach(function (b) {
-        b.setAttribute('aria-pressed', b.getAttribute('data-filter') === filter ? 'true' : 'false');
-      });
-      var toShow = cards.filter(function (c) { return filter === 'todos' || c.getAttribute('data-gender') === filter; });
-      if (status) { status.textContent = 'Mostrando ' + toShow.length + ' ' + labels[filter]; }
-      if (timer) { clearTimeout(timer); timer = null; }
-
-      var swap = function () {
-        cards.forEach(function (c) {
-          var show = toShow.indexOf(c) !== -1;
-          if (c.hidden && show) { c.classList.remove('is-visible', 'is-settled'); }
-          c.hidden = !show;
+      this.buttons.forEach(function (b) {
+        b.addEventListener('click', function () {
+          self.apply({ genero: b.getAttribute('data-genero'), sub: null }, { animate: true });
         });
-        setOffsets();
-        toShow.forEach(function (c, i) { c.style.setProperty('--i', i); revealNow(c); });
+      });
+
+      if (this.chips) {
+        this.chips.addEventListener('click', function (e) {
+          var chip = e.target.closest('.chip');
+          if (!chip) { return; }
+          var value = chip.getAttribute('data-sub');
+          var sub = self.state.sub === value ? null : value;
+          self.apply({ genero: self.state.genero, sub: sub }, { animate: true });
+        });
+      }
+
+      document.addEventListener('em:products-error', function () {
+        self.grid.innerHTML = '<li class="catalog__empty">No se pudo cargar el catálogo. Abrí la web desde un servidor local o publicada (ver README).</li>';
+      });
+    },
+
+    // Feria = prendas con precio promocional; su "subcategoría" es el género.
+    chipOptions: function (genero) {
+      if (genero === 'feria') { return [{ value: 'mujer', label: 'Mujer' }, { value: 'hombre', label: 'Hombre' }]; }
+      var names = genero === 'todos' ? SUBCATS.mujer.concat(SUBCATS.hombre) : (SUBCATS[genero] || []);
+      var seen = {};
+      return names.filter(function (n) { if (seen[n]) { return false; } seen[n] = true; return true; })
+        .map(function (n) { return { value: n, label: n }; });
+    },
+
+    filtered: function (state) {
+      return EM.products.filter(function (p) {
+        if (state.genero === 'feria') {
+          return !!p.precioPromo && (!state.sub || p.genero === state.sub);
+        }
+        if (state.genero !== 'todos' && p.genero !== state.genero) { return false; }
+        return !state.sub || p.subcategoria === state.sub;
+      });
+    },
+
+    describe: function (state, n) {
+      var text = n + (n === 1 ? ' prenda' : ' prendas');
+      if (state.genero === 'feria') {
+        text += ' en Feria' + (state.sub ? ' de ' + state.sub : '');
+      } else {
+        if (state.genero !== 'todos') { text += ' de ' + state.genero; }
+        if (state.sub) { text += ' en ' + state.sub; }
+      }
+      return text;
+    },
+
+    hashFor: function (state) {
+      var h = '#catalogo';
+      if (state.genero !== 'todos') { h += '/' + state.genero; }
+      if (state.sub) { h += '/' + (state.genero === 'feria' ? state.sub : slugify(state.sub)); }
+      return h;
+    },
+
+    fromHash: function (hash) {
+      var parts = hash.replace(/^#catalogo\/?/, '').split('/').filter(Boolean);
+      var genero = GENEROS.indexOf(parts[0]) !== -1 ? parts[0] : 'todos';
+      var sub = null;
+      if (parts[1]) {
+        this.chipOptions(genero).forEach(function (o) {
+          var key = genero === 'feria' ? o.value : slugify(o.value);
+          if (key === parts[1]) { sub = o.value; }
+        });
+      }
+      return { genero: genero, sub: sub };
+    },
+
+    renderChips: function () {
+      if (!this.chips) { return; }
+      var state = this.state;
+      this.chips.innerHTML = this.chipOptions(state.genero).map(function (o) {
+        var on = state.sub === o.value;
+        return '<button class="chip" type="button" data-sub="' + esc(o.value) + '" aria-pressed="' + (on ? 'true' : 'false') + '">' + esc(o.label) + '</button>';
+      }).join('');
+    },
+
+    apply: function (state, opts) {
+      opts = opts || {};
+      if (!this.grid) { return; }
+      if (GENEROS.indexOf(state.genero) === -1) { state.genero = 'todos'; }
+      var valid = this.chipOptions(state.genero).some(function (o) { return o.value === state.sub; });
+      if (!valid) { state.sub = null; }
+      this.state = state;
+
+      this.buttons.forEach(function (b) {
+        b.setAttribute('aria-pressed', b.getAttribute('data-genero') === state.genero ? 'true' : 'false');
+      });
+      this.renderChips();
+
+      var list = this.filtered(state);
+      var text = this.describe(state, list.length);
+      if (this.count) { this.count.textContent = text; }
+      if (this.status) { this.status.textContent = 'Mostrando ' + text; }
+
+      if (opts.updateHash !== false && window.history && window.history.replaceState) {
+        var h = this.hashFor(state);
+        if (window.location.hash !== h) { window.history.replaceState(null, '', h); }
+      }
+
+      var grid = this.grid;
+      var draw = function () {
+        if (list.length) {
+          renderCards(grid, list, !EM.reduce);
+        } else {
+          grid.innerHTML = '<li class="catalog__empty">No hay prendas con ese filtro. Probá con otra categoría.</li>';
+        }
         grid.classList.remove('is-switching');
       };
 
-      if (!animate || EM.reduce) { swap(); return; }
-      grid.classList.add('is-switching');
-      timer = setTimeout(function () { timer = null; swap(); }, 260);
+      if (this.timer) { clearTimeout(this.timer); this.timer = null; }
+      if (opts.animate === false || EM.reduce) {
+        draw();
+      } else {
+        grid.classList.add('is-switching');
+        var self = this;
+        this.timer = setTimeout(function () { self.timer = null; draw(); }, 240);
+      }
+
+      if (opts.scroll) {
+        var section = document.getElementById('catalogo');
+        if (section) { section.scrollIntoView({ block: 'start', behavior: opts.instant ? 'instant' : 'smooth' }); }
+        if (opts.instant) { window.requestAnimationFrame(revealInView); }
+      }
+    }
+  };
+
+  function setupCatalog() {
+    Catalog.init();
+  }
+
+  /* ---------- Router por hash: #catalogo/..., #p/slug ---------- */
+
+  function setupRouter() {
+    function route(opts) {
+      opts = opts || {};
+      var hash = window.location.hash || '';
+      var pm = hash.match(/^#p\/([a-z0-9-]+)$/);
+      if (pm) {
+        if (EM.openProduct) { EM.openProduct(pm[1]); }
+        return;
+      }
+      if (EM.closeProductIfOpen) { EM.closeProductIfOpen(); }
+      if (/^#catalogo/.test(hash)) {
+        Catalog.apply(Catalog.fromHash(hash), { animate: opts.animate !== false, scroll: opts.scroll !== false, instant: !!opts.instant, updateHash: false });
+      }
     }
 
-    buttons.forEach(function (b) {
-      b.addEventListener('click', function () { applyFilter(b.getAttribute('data-filter'), true); });
-    });
-    $$('a[data-filter]').forEach(function (link) {
-      link.addEventListener('click', function () { applyFilter(link.getAttribute('data-filter'), true); });
+    window.addEventListener('hashchange', function () { route({ scroll: true }); });
+
+    document.addEventListener('em:products', function () {
+      if (/^#catalogo/.test(window.location.hash)) {
+        // Al entrar con un link profundo el scroll es instantáneo: el suave se pierde
+        // mientras todavía cargan fuentes e imágenes. Se repite al terminar la carga.
+        route({ scroll: true, animate: false, instant: true });
+        window.addEventListener('load', function () {
+          if (/^#catalogo/.test(window.location.hash)) { route({ scroll: true, animate: false, instant: true }); }
+        });
+      } else {
+        Catalog.apply({ genero: 'todos', sub: null }, { animate: false, updateHash: false });
+        if (/^#p\//.test(window.location.hash)) { route({}); }
+      }
     });
 
-    var hash = window.location.hash.replace('#', '');
-    var m = hash.match(/^catalogo\/(mujer|hombre)/);
-    if (m) {
-      applyFilter(m[1], false);
-      var catalog = document.getElementById('catalogo');
-      if (catalog) { catalog.scrollIntoView(); }
-    }
-    setOffsets();
+    // Un link al hash actual no dispara hashchange: se resuelve a mano.
+    document.addEventListener('click', function (e) {
+      var a = e.target.closest('a[href^="#catalogo"]');
+      if (a && a.getAttribute('href') === window.location.hash) {
+        e.preventDefault();
+        route({ scroll: true });
+      }
+    });
   }
 
   /* ---------- Si el usuario cambia "reducir movimiento" en medio de la visita ---------- */
@@ -601,4 +752,6 @@
     if (mqReduce.addEventListener) { mqReduce.addEventListener('change', onChange); }
     else if (mqReduce.addListener) { mqReduce.addListener(onChange); }
   }
+
+  init();
 })();

@@ -1130,6 +1130,7 @@ details[open] > summary .nav__chevron {
 }
 
 .catalog__empty {
+  grid-column: 1 / -1;
   padding: 3rem 0;
   font-family: var(--font-display);
   font-size: 1.4rem;
@@ -1382,13 +1383,16 @@ html:not(.js) .card:nth-child(even) {
 
 @media (min-width: 900px) {
   .catalog__head {
-    grid-template-columns: 1fr auto;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr);
+    gap: 1.5rem 3rem;
     align-items: end;
   }
 
   .catalog__filters {
-    justify-self: end;
-    text-align: right;
+    display: grid;
+    gap: 0.75rem;
+    min-width: 0;
+    justify-items: end;
   }
 
   .catalog__filters .filters,

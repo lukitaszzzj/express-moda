@@ -4,67 +4,49 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Qué es este proyecto
 
-Vidriera estática de una sola página para **Express Moda** (expressmoda.com.ar), tienda de ropa femenina y masculina de Argentina, negocio familiar con locales en Mar del Plata y Villa Crespo. La tienda real corre en Tienda Nube y **esta web no la reemplaza**: su único objetivo es mostrar 8 productos y derivar toda consulta a WhatsApp. Se publica en GitHub Pages (rama `main`, carpeta raíz) o Vercel (sin build command, output en la raíz).
+Web estática de una página para **Express Moda** (expressmoda.com.ar), tienda de ropa femenina y masculina de Argentina con locales en Mar del Plata y Villa Crespo. Replica la estructura y funciones de la tienda real de Tienda Nube (menú por categorías, catálogo, ficha, carrito, newsletter) con un rediseño editorial propio. **No tiene backend**: carrito, últimos vistos y newsletter se simulan con `localStorage`, siempre dentro de try/catch. Se publica en GitHub Pages (rama `main`, raíz) o Vercel (sin build, output en la raíz).
 
 ## Stack y comandos
 
-- `index.html` + `styles.css` + `main.js` + `assets/img/`. Sin frameworks, sin bundler, sin npm, sin build step. Única dependencia externa permitida: Google Fonts.
-- No hay tests ni linter. Para probar, servir la carpeta con cualquier servidor estático (por ejemplo `npx serve .` o `python -m http.server`) o abrir `index.html` directo.
-- Verificación manual obligatoria antes de dar algo por terminado (ver checklist al final).
+- `index.html` + `styles.css` + `main.js` + `data/products.json` + `assets/img/`. Sin frameworks, bundler ni npm. Única dependencia externa: Google Fonts.
+- No hay tests ni linter. Chequeo rápido de sintaxis: `node --check main.js`.
+- El catálogo se carga con `fetch`, así que para probar hay que servir la carpeta: `python -m http.server 8080` (hay una config en `.claude/launch.json`, ignorada por git). Con `file://` no cargan los productos.
+- Verificación manual obligatoria antes de dar algo por terminado (checklist al final).
 
 ## Restricciones duras (no negociables)
 
-- **Solo 4 secciones**: Inicio (hero + bloques Mujer/Hombre + barra de beneficios), Catálogo, Quiénes somos, botón flotante de WhatsApp. Más un footer mínimo. Nada de newsletter, carrito, login, buscador ni formularios.
-- **Rutas relativas siempre** (`assets/img/x.jpg`, nunca `/assets/...`) para que funcione bajo subdirectorio en GitHub Pages.
-- **Datos exactos**: precios, promos, colores, talles y número de WhatsApp tienen que coincidir carácter por carácter con la tabla de abajo. No inventar productos ni redondear precios.
-- **Movimiento solo con `transform` y `opacity`**. Nunca animar `width`, `height`, `top`, `left`, `margin`.
-- **`prefers-reduced-motion: reduce`** tiene que dejar la página totalmente estática y con todo el contenido visible.
-- **Sin JS la página tiene que ser legible completa**: las tarjetas no pueden depender de IntersectionObserver para volverse visibles (el estado inicial oculto se aplica solo cuando JS agrega una clase al `<html>` o al `<body>`).
-- Mobile first. Meta Lighthouse mobile: performance y accesibilidad > 90 con animaciones activas.
-- Imágenes con `loading="lazy"` (salvo la del hero), `width`/`height` definidos, `alt` en todas, peso < 300 KB.
+- **Rutas relativas siempre** (`assets/img/x.webp`, `data/products.json`; nunca `/assets/...`).
+- **Movimiento solo con `transform` y `opacity`.** Nunca animar `width`, `height`, `top`, `left`, `margin`. La barra de envío gratis usa `transform: scaleX`.
+- **`prefers-reduced-motion: reduce`** deja la página totalmente estática (bloque al final de `styles.css` + `EM.reduce` en JS).
+- Las animaciones de entrada solo existen bajo `html.js`; el inline script del `<head>` la agrega y la quita si `main.js` no marca `js-ready` en 4 s. Sin JS el hero y los bloques se ven; el catálogo muestra un `<noscript>`.
+- Accesibilidad: alt en todas las imágenes, contraste AA, teclado, `aria-label`, foco atrapado en modales/drawer/overlays, cierre con Escape y clic afuera.
+- Datos de los 8 productos originales exactamente como el brief (nombres con acentos, colores, talles, precios). Los demás vienen de la API de la tienda.
+- Mobile first: breakpoints 600, 760, 900 y 1100 (el menú de escritorio aparece a partir de 1100).
 
 ## Datos de negocio
 
-WhatsApp: `+54 9 11 2712 0131`
+- WhatsApp `+54 9 11 2712 0131`. Link general: `https://wa.me/5491127120131?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta.` (botón flotante, modal de contacto y footer).
+- Marquee superior, dos mensajes exactos: "3 CUOTAS sin interés y 6 a partir de $150.000 de compra" y "ENVÍO GRATIS a partir de $100.000". Envío gratis en el carrito: subtotal ≥ $100.000.
+- Menú: Mujer · Hombre · Feria (mega menús) · Gift cards (`https://expressmoda.com.ar/gift-cards1/`) · Contacto (modal) · Uniformes (`https://expressmoda.com.ar/mas-uniformes-empresas/`) · Nuestros locales (modal).
+- Subcategorías exactas. Mujer: Remeras y tops · Blusas y camisas · Sacos y blazer · Buzos y sweaters · Camperas y abrigos · Polleras y shorts · Jeans · Pantalones y calzas · Vestidos y monos. Hombre: Chombas y remeras · Camisas · Buzos y sweaters · Pantalones y bermudas · Jeans · Camperas, abrigos y sacos · Accesorios y complementos. Feria: Mujer · Hombre (= prendas con `precioPromo`).
+- Locales: Güemes, Castelli 1302 (Mar del Plata) y Av. Córdoba 4644 (Villa Crespo, CABA). Contacto: San Martín 2419, Mar del Plata. Horarios y email: placeholders `[HORARIO]`, `[EMAIL]`. Instagram: placeholder `[INSTAGRAM]`.
+- Hero: "Moda para mujer y hombre, desde hace tres generaciones" · botón "Ver catálogo".
 
-- Botón flotante y footer: `https://wa.me/5491127120131?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta.`
-- Desde una tarjeta: mismo número, mensaje `Hola! Quiero consultar por [nombre de la prenda].` codificado con `encodeURIComponent`.
+## Arquitectura
 
-Beneficios (marquee): Envío gratis en compras a partir de $100.000 · 3 cuotas sin interés · 6 cuotas sin interés en compras a partir de $150.000.
-
-Título del hero: "Moda para mujer y hombre, desde hace tres generaciones". Botón: "Ver catálogo".
-
-Quiénes somos (texto final, usar tal cual): "Tres generaciones dedicadas a la moda. Esa tradición familiar es nuestra garantía de calidad: cada prenda que vendemos, para mujer y hombre, pasa por el mismo criterio de siempre. Nos encontrás en Mar del Plata, en Villa Crespo (Buenos Aires) y en nuestra tienda online."
-
-Footer: logo, Instagram (placeholder literal `[INSTAGRAM]`), y links a expressmoda.com.ar: tienda completa, Feria, Gift cards, Uniformes.
-
-### Productos (ARS al 15/09/2026)
-
-| Género | Nombre | Precio | Promo | Colores | Talles | Ficha en expressmoda.com.ar |
-|---|---|---|---|---|---|---|
-| Mujer | Jean Wide Leg I26 | $59.999 | $47.999 | Azul, Celeste, Negro, Óxido | 26 a 36 | /productos/jean-wide-leg-i26 |
-| Mujer | Jean Flare I26 | $59.999 | $47.999 | Azul, Azul claro, Gris, Negro | 26 a 36 | /productos/jean-flare-i26 |
-| Mujer | Vestido Citrino | $39.999 | — | Azul, Beige, Celeste | 1 a 4 | /productos/vestido-citrino |
-| Mujer | Camisa Degas | $29.999 | — | Azul | 1 a 3 | /productos/camisa-degas |
-| Hombre | Camisa de vestir Slim Dandy cuello abierto | $59.999 | $47.999 | Blanco, Celeste | 38 a 46 | /productos/camisa-vestir-slim-dandy-cuello-abierto |
-| Hombre | Jean Regular Gabardina | $49.999 a $59.999 | $47.999 | Beige, Cemento, Marino, Negro, Tiza, Tostado | 40 a 60 | /productos/jean-regular-gabardina |
-| Hombre | Chomba piqué Ibiza manga corta | $39.999 | — | Aero, Blanco, Celeste, Gris melange, Marino, Militar, Negro, Rojo | S a 4XL | /productos/chomba-pique-ibiza-manga-corta |
-| Hombre | Camisaco Turín | $149.999 | $119.999 | Beige, Gris | S a XXL | /productos/camisaco-turin |
-
-Las fotos de producto salen de la ficha de cada producto en la tienda real (columna de la derecha). Si una foto no se consigue, va un placeholder claramente marcado y se avisa al usuario.
-
-## Arquitectura de la página
-
-- **Catálogo**: los 8 productos viven como un array en `main.js` y se renderizan a la grilla, o están en el HTML con `data-gender="mujer|hombre"`. En cualquier caso el filtro Todos / Mujer / Hombre se resuelve con clases y transiciones de `opacity`/`transform` (las tarjetas no desaparecen de golpe). Los bloques Mujer/Hombre del hero enlazan a `#catalogo` y aplican el filtro correspondiente (por hash o `data-filter`).
-- **Movimiento** (todo vanilla): Ken Burns en el hero, título que entra por palabras, botón con delay, parallax con `transform: translate3d` en scroll (hero y bloques Mujer/Hombre), marquee de beneficios continuo, tarjetas con aparición escalonada vía IntersectionObserver, zoom de foto + cambio de fondo en hover.
-- **Dirección de arte**: look editorial, tipografía display grande, mucho aire, contraste fuerte, composiciones asimétricas. No replicar la plantilla de Tienda Nube. Del sitio original solo se toma el logo, las fotos y el tono (moda accesible). La paleta puede cambiar mientras el logo siga funcionando sobre ella.
+- **`data/products.json`**: 64 productos (16 subcategorías, hasta 4 por cada una). Campos: `id`, `slug`, `nombre`, `genero`, `subcategoria`, `precio`, `precioHasta` (null salvo rango), `precioPromo` (null si no hay), `colores`, `talles`, `fotos` (2 rutas), `descripcion`, `urlTienda`. Se generó desde la API de la tienda (conector MCP de Tienda Nube de la sesión) más `curl` a cada ficha para las fotos; el script de merge quedó fuera del repo.
+- **`main.js`** es una IIFE con módulos: `Layers` (pila de modales/overlays/drawer con foco atrapado; `data-close`, `data-modal`, `data-overlay`, `data-drawer`), `Catalog` (estado `{genero, sub}`, chips, `hashFor`/`fromHash`), `Product` (ficha, `#p/slug`, cierra con `history.back()` si se navegó dentro de la web), `Cart` (`em_cart`), `Recs` (`em_lastViewed`, `em_recent`), newsletter (`em_newsletter`), header (mega menús con hover/clic/teclado, menú móvil con `<details>`), búsqueda, parallax, reveal con IntersectionObserver. Eventos internos: `em:products`, `em:products-error`, `em:product-closed`. **El arranque (`init()`) está al final del archivo** porque los módulos son `var` con objetos literales: no moverlo arriba.
+- **Hash**: `#catalogo[/genero[/sub-slug]]`, `#catalogo/feria[/mujer|hombre]`, `#p/slug`. Los links del mega menú, del menú móvil, de los bloques Mujer/Hombre y del footer usan esos hashes; el router los resuelve en `hashchange`.
+- **Tarjeta compartida** (`cardHtml`) para catálogo, búsqueda y recomendados. "Agregar al carrito" abre la ficha si hay más de un color o talle.
+- **Dirección de arte**: hueso `#f4f1ea`, tinta `#111111`, índigo `#1f3a5f`, óxido `#a8471f`; Fraunces (display) + Manrope (cuerpo). Hero partido en desktop porque la foto de campaña trae texto impreso en su tercio derecho.
 
 ## Checklist de verificación antes de terminar
 
-1. Abrir la página en el navegador y probar los 3 filtros del catálogo.
-2. Hacer clic en al menos dos botones de WhatsApp y confirmar que el mensaje prearmado es el correcto (incluye el nombre exacto de la prenda).
-3. Sin errores en consola.
-4. Probar con `prefers-reduced-motion` activo: nada se mueve, todo se lee.
-5. Probar con JS desactivado: todo el contenido visible.
-6. Confirmar que ninguna ruta en HTML/CSS/JS empieza con `/`.
-7. Git inicializado con `.gitignore` y commit inicial hecho.
+1. Servir la carpeta y abrir en desktop (1440) y en ancho de celular (375).
+2. El marquee corre, se pausa con su botón y no tapa el header; el hero queda debajo del bloque fijo.
+3. Los tres mega menús abren (hover, clic, teclado) y cada subcategoría filtra el catálogo y scrollea a él.
+4. Abrir una ficha, elegir color y talle, agregar: el badge sube, el drawer muestra el ítem, subtotal y barra de envío gratis correctos. Recargar: el carrito sigue.
+5. Cerrar la ficha: aparece "En base a tu última búsqueda" con 4 productos de la misma subcategoría.
+6. Búsqueda, cuenta, contacto y locales abren y cierran con clic afuera y con Escape.
+7. Newsletter valida el email y confirma.
+8. Sin errores en consola, sin rutas absolutas (`grep -n 'href="/\|src="/' index.html` vacío) y con `prefers-reduced-motion` la página queda estática.

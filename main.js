@@ -54,7 +54,7 @@
   }
 
   function norm(s) {
-    return String(s || '').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+    return String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   }
 
   function slugify(s) {
@@ -88,7 +88,8 @@
 
   function focusables(root) {
     return $$('a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"]), summary', root)
-      .filter(function (el) { return el.offsetParent !== null || el === document.activeElement; });
+      // getClientRects y no offsetParent: offsetParent es null en elementos position: fixed.
+      .filter(function (el) { return el.getClientRects().length > 0 || el === document.activeElement; });
   }
 
   /* ---------- Hero: título palabra por palabra ---------- */
@@ -229,7 +230,9 @@
       var publish = function () { html.style.setProperty('--top-h', top.offsetHeight + 'px'); };
       publish();
       if ('ResizeObserver' in window) { new ResizeObserver(publish).observe(top); }
-      else { window.addEventListener('resize', publish); }
+      window.addEventListener('resize', publish);
+      window.addEventListener('load', publish);
+      if (document.fonts && document.fonts.ready) { document.fonts.ready.then(publish); }
     }
   }
 
@@ -908,7 +911,13 @@
         });
       }
 
-      document.addEventListener('em:products', function () { self.render(); });
+      document.addEventListener('em:products', function () {
+        // Descarta ítems guardados cuyo producto ya no está en el catálogo.
+        var before = self.items.length;
+        self.items = self.items.filter(function (it) { return !!EM.byId[it.id]; });
+        if (self.items.length !== before) { self.save(); }
+        self.render();
+      });
 
       EM.addToCart = function (p, color, talle, qty) { self.add(p, color, talle, qty); };
       EM.openCart = function () { self.open(); };
@@ -918,8 +927,9 @@
     save: function () { storageSet(this.KEY, this.items); },
 
     lines: function () {
-      return this.items.map(function (it) {
-        return { item: it, product: EM.byId[it.id] };
+      // index es la posición real en this.items: los botones editan ese ítem y no otro.
+      return this.items.map(function (it, i) {
+        return { item: it, product: EM.byId[it.id], index: i };
       }).filter(function (l) { return !!l.product; });
     },
 
@@ -988,7 +998,7 @@
       if (!lines.length) {
         this.body.innerHTML = '<div class="drawer__empty"><p>Tu carrito está vacío.</p><a class="btn btn--dark" href="#catalogo" data-close>Ver el catálogo</a></div>';
       } else {
-        this.body.innerHTML = '<ul class="cart-list">' + lines.map(function (l, i) {
+        this.body.innerHTML = '<ul class="cart-list">' + lines.map(function (l) {
           var p = l.product;
           var it = l.item;
           var meta = [it.color, it.talle ? 'Talle ' + it.talle : null].filter(Boolean).join(' · ');
@@ -999,13 +1009,13 @@
               (meta ? '<p class="cart-item__meta">' + esc(meta) + '</p>' : '') +
               '<div class="cart-item__row">' +
                 '<div class="qty qty--sm" role="group" aria-label="Cantidad de ' + esc(p.nombre) + '">' +
-                  '<button type="button" data-cart-qty="-1" data-index="' + i + '" aria-label="Restar una unidad">&minus;</button>' +
+                  '<button type="button" data-cart-qty="-1" data-index="' + l.index + '" aria-label="Restar una unidad">&minus;</button>' +
                   '<output>' + it.qty + '</output>' +
-                  '<button type="button" data-cart-qty="1" data-index="' + i + '" aria-label="Sumar una unidad">+</button>' +
+                  '<button type="button" data-cart-qty="1" data-index="' + l.index + '" aria-label="Sumar una unidad">+</button>' +
                 '</div>' +
                 '<span class="cart-item__price">' + fmt(self.unit(p) * it.qty) + '</span>' +
               '</div>' +
-              '<button class="link-btn cart-item__remove" type="button" data-cart-remove="' + i + '">Quitar<span class="visually-hidden"> ' + esc(p.nombre) + '</span></button>' +
+              '<button class="link-btn cart-item__remove" type="button" data-cart-remove="' + l.index + '">Quitar<span class="visually-hidden"> ' + esc(p.nombre) + '</span></button>' +
             '</div>' +
           '</li>';
         }).join('') + '</ul>';
@@ -1070,7 +1080,14 @@
           : 'Porque viste ' + cap(last.genero) + ', ' + last.subcategoria;
       }
       this.el.hidden = false;
+      // Si el foco estaba en una tarjeta que se va a redibujar, se pasa al título de la sección.
+      var hadFocus = this.grid.contains(document.activeElement) || document.activeElement === document.body;
       renderCards(this.grid, list, true);
+      var title = document.getElementById('recs-title');
+      if (hadFocus && title && !Layers.stack.length) {
+        title.setAttribute('tabindex', '-1');
+        title.focus({ preventScroll: true });
+      }
     }
   };
 
@@ -1129,18 +1146,24 @@
       }
       if (EM.closeProductIfOpen) { EM.closeProductIfOpen(); }
       if (/^#catalogo/.test(hash)) {
-        Catalog.apply(Catalog.fromHash(hash), { animate: opts.animate !== false, scroll: opts.scroll !== false, instant: !!opts.instant, updateHash: false });
+        var next = Catalog.fromHash(hash);
+        if (opts.fromProduct && next.genero === Catalog.state.genero && next.sub === Catalog.state.sub) { return; }
+        Catalog.apply(next, { animate: opts.animate !== false, scroll: opts.scroll !== false, instant: !!opts.instant, updateHash: false });
       }
     }
 
     window.addEventListener('hashchange', function (e) {
       var isProduct = /^#p\//.test(window.location.hash);
+      var oldHash = '';
+      try { oldHash = new URL(e.oldURL).hash; } catch (err) { oldHash = ''; }
+      var fromProduct = /^#p\//.test(oldHash);
       if (isProduct && EM.hashBeforeProduct == null) {
-        try { EM.hashBeforeProduct = new URL(e.oldURL).hash || '#inicio'; } catch (err) { EM.hashBeforeProduct = '#inicio'; }
+        EM.hashBeforeProduct = oldHash || '#inicio';
       } else if (!isProduct) {
         EM.hashBeforeProduct = null;
       }
-      route({ scroll: !isProduct });
+      // Al cerrar una ficha la página se queda donde estaba: sin scroll ni redibujar el catálogo.
+      route({ scroll: !isProduct && !fromProduct, fromProduct: fromProduct });
     });
 
     document.addEventListener('em:products', function () {

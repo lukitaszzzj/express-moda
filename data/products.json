@@ -1,0 +1,1860 @@
+[
+  {
+    "id": "329660304",
+    "slug": "remera-basica-esc-v-i26",
+    "nombre": "Remera Basica Esc V I26",
+    "genero": "mujer",
+    "subcategoria": "Remeras y tops",
+    "precio": 24999,
+    "precioHasta": null,
+    "precioPromo": 19999,
+    "colores": [
+      "Blanco",
+      "Bordo",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "fotos": [
+      "assets/img/remera-basica-esc-v-i26.webp",
+      "assets/img/remera-basica-esc-v-i26-2.webp"
+    ],
+    "descripcion": "Remera Basica Escote V Confeccionada En Algodon 100%. · Composición: 100% Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-basica-esc-v-i26/"
+  },
+  {
+    "id": "329660359",
+    "slug": "remera-los-angeles",
+    "nombre": "Remera Los Angeles",
+    "genero": "mujer",
+    "subcategoria": "Remeras y tops",
+    "precio": 34999,
+    "precioHasta": null,
+    "precioPromo": 27999,
+    "colores": [
+      "Blanco",
+      "Gris"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/remera-los-angeles.webp",
+      "assets/img/remera-los-angeles-2.webp"
+    ],
+    "descripcion": "Remeron Manga Larga Con Estampa Al Frente. · Composición: 100% Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-los-angeles/"
+  },
+  {
+    "id": "329660375",
+    "slug": "remera-escote-cuadrado-i26",
+    "nombre": "Remera Escote Cuadrado I26",
+    "genero": "mujer",
+    "subcategoria": "Remeras y tops",
+    "precio": 34999,
+    "precioHasta": null,
+    "precioPromo": 27999,
+    "colores": [
+      "Crudo",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/remera-escote-cuadrado-i26.webp",
+      "assets/img/remera-escote-cuadrado-i26-2.webp"
+    ],
+    "descripcion": "Remera De Morley Soft Con Escote Cuadrado. · Composición: 93%rayon 7%spandex",
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-escote-cuadrado-i26/"
+  },
+  {
+    "id": "330909030",
+    "slug": "remera-julieta",
+    "nombre": "Remera Julieta",
+    "genero": "mujer",
+    "subcategoria": "Remeras y tops",
+    "precio": 19999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Bordo",
+      "Marino",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/remera-julieta.webp",
+      "assets/img/remera-julieta-2.webp"
+    ],
+    "descripcion": "Remera Cruzada Con Caida Y Escote En V. · Composición: Viscosa 96% Lycra 4%",
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-julieta/"
+  },
+  {
+    "id": "204998241",
+    "slug": "camisa-degas",
+    "nombre": "Camisa Degas",
+    "genero": "mujer",
+    "subcategoria": "Blusas y camisas",
+    "precio": 29999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Azul"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3"
+    ],
+    "fotos": [
+      "assets/img/camisa-degas.webp",
+      "assets/img/camisa-degas-2.webp"
+    ],
+    "descripcion": "Camisa De Poplin · Composición: 100% Rayon",
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-degas/"
+  },
+  {
+    "id": "294542357",
+    "slug": "camisa-florencia",
+    "nombre": "Camisa Florencia",
+    "genero": "mujer",
+    "subcategoria": "Blusas y camisas",
+    "precio": 19999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "fotos": [
+      "assets/img/camisa-florencia.webp",
+      "assets/img/camisa-florencia-2.webp"
+    ],
+    "descripcion": "Camisa Florencia · Composición: Polyester",
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-florencia/"
+  },
+  {
+    "id": "332372692",
+    "slug": "blusa-boho",
+    "nombre": "Blusa Boho",
+    "genero": "mujer",
+    "subcategoria": "Blusas y camisas",
+    "precio": 49999,
+    "precioHasta": null,
+    "precioPromo": 39999,
+    "colores": [
+      "Bordo",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/blusa-boho.webp",
+      "assets/img/blusa-boho-2.webp"
+    ],
+    "descripcion": "Blusa Con Volados En Manga Y Lazo En Espalda. · Composición: 100% Poliester",
+    "urlTienda": "https://expressmoda.com.ar/productos/blusa-boho/"
+  },
+  {
+    "id": "335016562",
+    "slug": "camisa-de-broderie",
+    "nombre": "Camisa de Broderie",
+    "genero": "mujer",
+    "subcategoria": "Blusas y camisas",
+    "precio": 89999,
+    "precioHasta": null,
+    "precioPromo": 69999,
+    "colores": [
+      "Blanco",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/camisa-de-broderie.webp",
+      "assets/img/camisa-de-broderie-2.webp"
+    ],
+    "descripcion": "Camisa De Broderie Con Cuello Alto Y Puntillas Al Frente. · Composición: 100% Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-de-broderie/"
+  },
+  {
+    "id": "353264657",
+    "slug": "camisa-rayas",
+    "nombre": "Camisa Rayas",
+    "genero": "mujer",
+    "subcategoria": "Blusas y camisas",
+    "precio": 89999,
+    "precioHasta": null,
+    "precioPromo": 69999,
+    "colores": [
+      "Celeste",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/camisa-rayas.webp",
+      "assets/img/camisa-rayas-2.webp"
+    ],
+    "descripcion": "Composición: 100% Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-rayas/"
+  },
+  {
+    "id": "335009635",
+    "slug": "blazer-romina",
+    "nombre": "Blazer Romina",
+    "genero": "mujer",
+    "subcategoria": "Sacos y blazer",
+    "precio": 79999,
+    "precioHasta": null,
+    "precioPromo": 63999,
+    "colores": [
+      "Marron",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "fotos": [
+      "assets/img/blazer-romina.webp",
+      "assets/img/blazer-romina-2.webp"
+    ],
+    "descripcion": "Blazer Clasico De Dama. · Composición: 97%poliester 3%spandex",
+    "urlTienda": "https://expressmoda.com.ar/productos/blazer-romina/"
+  },
+  {
+    "id": "335009644",
+    "slug": "blazer-espiga",
+    "nombre": "Blazer Espiga",
+    "genero": "mujer",
+    "subcategoria": "Sacos y blazer",
+    "precio": 149999,
+    "precioHasta": null,
+    "precioPromo": 119999,
+    "colores": [
+      "Espigado"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "fotos": [
+      "assets/img/blazer-espiga.webp",
+      "assets/img/blazer-espiga-2.webp"
+    ],
+    "descripcion": "Blazer Clasico De Dama. · Composición: 65poli 33rayon 2spandex",
+    "urlTienda": "https://expressmoda.com.ar/productos/blazer-espiga/"
+  },
+  {
+    "id": "349688318",
+    "slug": "blazer-sf",
+    "nombre": "Blazer Sf",
+    "genero": "mujer",
+    "subcategoria": "Sacos y blazer",
+    "precio": 79999,
+    "precioHasta": null,
+    "precioPromo": 63999,
+    "colores": [
+      "Beige",
+      "Chocolate",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/blazer-sf.webp",
+      "assets/img/blazer-sf-2.webp"
+    ],
+    "descripcion": "Abrigo Corto Cruzado Sin Forrar.",
+    "urlTienda": "https://expressmoda.com.ar/productos/blazer-sf/"
+  },
+  {
+    "id": "306603898",
+    "slug": "buzo-jaspe",
+    "nombre": "Buzo Jaspe",
+    "genero": "mujer",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 29999,
+    "precioHasta": null,
+    "precioPromo": 23999,
+    "colores": [
+      "Celeste",
+      "Negro",
+      "Verde"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/buzo-jaspe.webp",
+      "assets/img/buzo-jaspe-2.webp"
+    ],
+    "descripcion": "Buzo Con Escote Polo Y Botones Al Frente. · Composición: 73%poli 27%alg",
+    "urlTienda": "https://expressmoda.com.ar/productos/buzo-jaspe/"
+  },
+  {
+    "id": "334997448",
+    "slug": "sweater-sofftie-redondo-2467",
+    "nombre": "Sweater Sofftie Redondo 2467",
+    "genero": "mujer",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 69999,
+    "precioHasta": null,
+    "precioPromo": 55999,
+    "colores": [
+      "Azul",
+      "Camel",
+      "Chocolate",
+      "Gris",
+      "Negro"
+    ],
+    "talles": [
+      "S",
+      "M"
+    ],
+    "fotos": [
+      "assets/img/sweater-sofftie-redondo-2467.webp",
+      "assets/img/sweater-sofftie-redondo-2467-2.webp"
+    ],
+    "descripcion": "Sweater Softtie Redondo",
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-sofftie-redondo-2467/"
+  },
+  {
+    "id": "295972304",
+    "slug": "buzo-calcita",
+    "nombre": "Buzo Calcita",
+    "genero": "mujer",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 29999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Celeste",
+      "Crudo",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/buzo-calcita.webp",
+      "assets/img/buzo-calcita-2.webp"
+    ],
+    "descripcion": "Buzo Calcita · Composición: Alg/poliester- Algodon Poliester",
+    "urlTienda": "https://expressmoda.com.ar/productos/buzo-calcita/"
+  },
+  {
+    "id": "329660458",
+    "slug": "sweater-lurex-w26",
+    "nombre": "Sweater Lurex W26",
+    "genero": "mujer",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 69999,
+    "precioHasta": null,
+    "precioPromo": 55999,
+    "colores": [
+      "Gris"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/sweater-lurex-w26.webp",
+      "assets/img/sweater-lurex-w26-2.webp"
+    ],
+    "descripcion": "Sweater De Corte Oversize Con Lurex. · Composición: 47rayon 31poli 19nylon 3lurex",
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-lurex-w26/"
+  },
+  {
+    "id": "329660216",
+    "slug": "campera-corta-w2067",
+    "nombre": "Campera Corta W2067",
+    "genero": "mujer",
+    "subcategoria": "Camperas y abrigos",
+    "precio": 129999,
+    "precioHasta": null,
+    "precioPromo": 103999,
+    "colores": [
+      "Bordo",
+      "Negro"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "fotos": [
+      "assets/img/campera-corta-w2067.webp",
+      "assets/img/campera-corta-w2067-2.webp"
+    ],
+    "descripcion": "Campera 2067",
+    "urlTienda": "https://expressmoda.com.ar/productos/campera-corta-w2067/"
+  },
+  {
+    "id": "329660270",
+    "slug": "abrigo-rosalia",
+    "nombre": "Abrigo Rosalia",
+    "genero": "mujer",
+    "subcategoria": "Camperas y abrigos",
+    "precio": 179999,
+    "precioHasta": null,
+    "precioPromo": 143999,
+    "colores": [
+      "Beige",
+      "Marino",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "fotos": [
+      "assets/img/abrigo-rosalia.webp",
+      "assets/img/abrigo-rosalia-2.webp"
+    ],
+    "descripcion": "Abrigo Largo Entallado Con Botones Al Frente Y Tajo Trasero. · Composición: 88%poliester 10%rayon 2%spandex",
+    "urlTienda": "https://expressmoda.com.ar/productos/abrigo-rosalia/"
+  },
+  {
+    "id": "333998244",
+    "slug": "abrigo-trench",
+    "nombre": "Abrigo Trench",
+    "genero": "mujer",
+    "subcategoria": "Camperas y abrigos",
+    "precio": 229999,
+    "precioHasta": null,
+    "precioPromo": 183999,
+    "colores": [
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3"
+    ],
+    "fotos": [
+      "assets/img/abrigo-trench.webp",
+      "assets/img/abrigo-trench-2.webp"
+    ],
+    "descripcion": "Abrigo Largo Tipo Trench Con Lazo En La Cintura · Composición: 85%mix 15%lana",
+    "urlTienda": "https://expressmoda.com.ar/productos/abrigo-trench/"
+  },
+  {
+    "id": "352282417",
+    "slug": "abrigo-cruzado-sf",
+    "nombre": "Abrigo Cruzado Sf",
+    "genero": "mujer",
+    "subcategoria": "Camperas y abrigos",
+    "precio": 99999,
+    "precioHasta": null,
+    "precioPromo": 79999,
+    "colores": [
+      "Beige",
+      "Gris",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/abrigo-cruzado-sf.webp",
+      "assets/img/abrigo-cruzado-sf-2.webp"
+    ],
+    "descripcion": "Abrigo Corto Cruzado Sin Forrar. · Composición: 85%mix 15%lana",
+    "urlTienda": "https://expressmoda.com.ar/productos/abrigo-cruzado-sf/"
+  },
+  {
+    "id": "321660492",
+    "slug": "pollera-de-jean-v26",
+    "nombre": "Pollera De Jean V26",
+    "genero": "mujer",
+    "subcategoria": "Polleras y shorts",
+    "precio": 19999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Azul"
+    ],
+    "talles": [
+      "30",
+      "32",
+      "34"
+    ],
+    "fotos": [
+      "assets/img/pollera-de-jean-v26.webp",
+      "assets/img/pollera-de-jean-v26-2.webp"
+    ],
+    "descripcion": "Pollera De Jean V26 · Composición: Algodon Poliester Spandex",
+    "urlTienda": "https://expressmoda.com.ar/productos/pollera-de-jean-v26/"
+  },
+  {
+    "id": "321660633",
+    "slug": "short-roll-up",
+    "nombre": "Short Roll Up",
+    "genero": "mujer",
+    "subcategoria": "Polleras y shorts",
+    "precio": 19999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Azul",
+      "Blanco"
+    ],
+    "talles": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "fotos": [
+      "assets/img/short-roll-up.webp",
+      "assets/img/short-roll-up-2.webp"
+    ],
+    "descripcion": "Short Roll Up · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/short-roll-up/"
+  },
+  {
+    "id": "313675241",
+    "slug": "short-tanzanita",
+    "nombre": "Short Tanzanita",
+    "genero": "mujer",
+    "subcategoria": "Polleras y shorts",
+    "precio": 19999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Beige",
+      "Negro"
+    ],
+    "talles": [
+      "28",
+      "30",
+      "32"
+    ],
+    "fotos": [
+      "assets/img/short-tanzanita.webp",
+      "assets/img/short-tanzanita-2.webp"
+    ],
+    "descripcion": "Short Tanzanita · Composición: Lino-rayon- 55% Lino 45% Rayon",
+    "urlTienda": "https://expressmoda.com.ar/productos/short-tanzanita/"
+  },
+  {
+    "id": "300021377",
+    "slug": "short-turquesa",
+    "nombre": "Short Turquesa",
+    "genero": "mujer",
+    "subcategoria": "Polleras y shorts",
+    "precio": 19999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Celeste",
+      "Gris",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "fotos": [
+      "assets/img/short-turquesa.webp",
+      "assets/img/short-turquesa-2.webp"
+    ],
+    "descripcion": "Short Turquesa · Composición: Alg/poliester- Algodon Poliester",
+    "urlTienda": "https://expressmoda.com.ar/productos/short-turquesa/"
+  },
+  {
+    "id": "321661107",
+    "slug": "jean-wide-leg-i26",
+    "nombre": "Jean Wide Leg I26",
+    "genero": "mujer",
+    "subcategoria": "Jeans",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Azul",
+      "Celeste",
+      "Negro",
+      "Óxido"
+    ],
+    "talles": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "fotos": [
+      "assets/img/jean-wide-leg-i26.jpg",
+      "assets/img/jean-wide-leg-i26-2.webp"
+    ],
+    "descripcion": "Jean Tiro Medio De Corte Wide Leg. · Composición: 81% Algodon 17% Poliester 2% Elastano",
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-wide-leg-i26/"
+  },
+  {
+    "id": "353264699",
+    "slug": "jean-flare-i26",
+    "nombre": "Jean Flare I26",
+    "genero": "mujer",
+    "subcategoria": "Jeans",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Azul",
+      "Azul claro",
+      "Gris",
+      "Negro"
+    ],
+    "talles": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "fotos": [
+      "assets/img/jean-flare-i26.webp",
+      "assets/img/jean-flare-i26-2.webp"
+    ],
+    "descripcion": "Composición: 81% Algodon 17% Poliester 2% Elastano",
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-flare-i26/"
+  },
+  {
+    "id": "353264664",
+    "slug": "jean-pata-ancha-i26",
+    "nombre": "Jean Pata Ancha I26",
+    "genero": "mujer",
+    "subcategoria": "Jeans",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Azul"
+    ],
+    "talles": [
+      "26",
+      "28",
+      "30",
+      "31",
+      "32",
+      "34",
+      "36"
+    ],
+    "fotos": [
+      "assets/img/jean-pata-ancha-i26.webp",
+      "assets/img/jean-pata-ancha-i26-2.webp"
+    ],
+    "descripcion": "Jean Tiro Alto De Corte Palazzo. · Composición: 81% Algodon 17% Poliester 2% Elastano",
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-pata-ancha-i26/"
+  },
+  {
+    "id": "353264691",
+    "slug": "jean-baggy-i26",
+    "nombre": "Jean Baggy I26",
+    "genero": "mujer",
+    "subcategoria": "Jeans",
+    "precio": 69999,
+    "precioHasta": null,
+    "precioPromo": 55999,
+    "colores": [
+      "Azul",
+      "Marino"
+    ],
+    "talles": [
+      "26",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "fotos": [
+      "assets/img/jean-baggy-i26.webp",
+      "assets/img/jean-baggy-i26-2.webp"
+    ],
+    "descripcion": "Composición: 81% Algodon 17% Poliester 2% Elastano",
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-baggy-i26/"
+  },
+  {
+    "id": "329660236",
+    "slug": "calza-luciana",
+    "nombre": "Calza Luciana",
+    "genero": "mujer",
+    "subcategoria": "Pantalones y calzas",
+    "precio": 49999,
+    "precioHasta": null,
+    "precioPromo": 39999,
+    "colores": [
+      "Gris",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "12"
+    ],
+    "fotos": [
+      "assets/img/calza-luciana.webp",
+      "assets/img/calza-luciana-2.webp"
+    ],
+    "descripcion": "Calza Semi Oxford Con Cintura Alta Que Se Puede Doblar. · Composición: 92%rayon 5%spadex",
+    "urlTienda": "https://expressmoda.com.ar/productos/calza-luciana/"
+  },
+  {
+    "id": "329660254",
+    "slug": "pantalon-marcela",
+    "nombre": "Pantalon Marcela",
+    "genero": "mujer",
+    "subcategoria": "Pantalones y calzas",
+    "precio": 49999,
+    "precioHasta": null,
+    "precioPromo": 39999,
+    "colores": [
+      "Negro",
+      "Ray.negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/pantalon-marcela.webp",
+      "assets/img/pantalon-marcela-2.webp"
+    ],
+    "descripcion": "Pantalon Recto Elastizado Con Cartera Falsa. · Composición: 50%rayon 50%poliester",
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-marcela/"
+  },
+  {
+    "id": "330907941",
+    "slug": "pantalon-sodalita",
+    "nombre": "Pantalon Sodalita",
+    "genero": "mujer",
+    "subcategoria": "Pantalones y calzas",
+    "precio": 49999,
+    "precioHasta": null,
+    "precioPromo": 39999,
+    "colores": [
+      "Azul",
+      "Camel",
+      "Negro"
+    ],
+    "talles": [
+      "4",
+      "28",
+      "30",
+      "32",
+      "34",
+      "36",
+      "38"
+    ],
+    "fotos": [
+      "assets/img/pantalon-sodalita.webp",
+      "assets/img/pantalon-sodalita-2.webp"
+    ],
+    "descripcion": "Pantalon Sodalita · Composición: Algodon Spandex- Algodon 96% Spandex 4%",
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-sodalita/"
+  },
+  {
+    "id": "335003243",
+    "slug": "pantalon-romina",
+    "nombre": "Pantalon Romina",
+    "genero": "mujer",
+    "subcategoria": "Pantalones y calzas",
+    "precio": 49999,
+    "precioHasta": null,
+    "precioPromo": 39999,
+    "colores": [
+      "Marron",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "fotos": [
+      "assets/img/pantalon-romina.webp",
+      "assets/img/pantalon-romina-2.webp"
+    ],
+    "descripcion": "Pantalon Sastrero Clasico De Corte Recto. · Composición: 97%poliester 3%spandex",
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-romina/"
+  },
+  {
+    "id": "300256424",
+    "slug": "vestido-citrino",
+    "nombre": "Vestido Citrino",
+    "genero": "mujer",
+    "subcategoria": "Vestidos y monos",
+    "precio": 39999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Azul",
+      "Beige",
+      "Celeste"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "fotos": [
+      "assets/img/vestido-citrino.webp",
+      "assets/img/vestido-citrino-2.webp"
+    ],
+    "descripcion": "Vestido Citrino · Composición: Rayon Lino- 90 Rayon 10 Lino",
+    "urlTienda": "https://expressmoda.com.ar/productos/vestido-citrino/"
+  },
+  {
+    "id": "303892753",
+    "slug": "vestido-cuarzo",
+    "nombre": "Vestido Cuarzo",
+    "genero": "mujer",
+    "subcategoria": "Vestidos y monos",
+    "precio": 39999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Negro",
+      "Verde"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3"
+    ],
+    "fotos": [
+      "assets/img/vestido-cuarzo.webp",
+      "assets/img/vestido-cuarzo-2.webp"
+    ],
+    "descripcion": "Vestido Cuarzo · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/vestido-cuarzo/"
+  },
+  {
+    "id": "298416345",
+    "slug": "vestido-apofilita",
+    "nombre": "Vestido Apofilita",
+    "genero": "mujer",
+    "subcategoria": "Vestidos y monos",
+    "precio": 39999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Celeste",
+      "Natural",
+      "Verde"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "fotos": [
+      "assets/img/vestido-apofilita.webp",
+      "assets/img/vestido-apofilita-2.webp"
+    ],
+    "descripcion": "Vestido Apofilita · Composición: Lino-rayon- 55% Lino 45% Rayon",
+    "urlTienda": "https://expressmoda.com.ar/productos/vestido-apofilita/"
+  },
+  {
+    "id": "299305577",
+    "slug": "vestido-hematita",
+    "nombre": "Vestido Hematita",
+    "genero": "mujer",
+    "subcategoria": "Vestidos y monos",
+    "precio": 39999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "32"
+    ],
+    "fotos": [
+      "assets/img/vestido-hematita.webp",
+      "assets/img/vestido-hematita-2.webp"
+    ],
+    "descripcion": "Vestido Hematita · Composición: Rayon-nylon- 52%rayon 48%nylon",
+    "urlTienda": "https://expressmoda.com.ar/productos/vestido-hematita/"
+  },
+  {
+    "id": "262363901",
+    "slug": "sweater-cuello-o-portland",
+    "nombre": "Sweater Cuello O Portland",
+    "genero": "hombre",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Arena",
+      "Azul",
+      "Bordo",
+      "Crudo",
+      "Gris Claro",
+      "Gris Oscuro",
+      "Malva",
+      "Marino",
+      "Negro"
+    ],
+    "talles": [
+      "1",
+      "3",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/sweater-cuello-o-portland.webp",
+      "assets/img/sweater-cuello-o-portland-2.webp"
+    ],
+    "descripcion": "Sweater Cuello O Portland · Composición: Viscosa - Nylon- Viscosa Nylon",
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-cuello-o-portland/"
+  },
+  {
+    "id": "262363930",
+    "slug": "sweater-escote-v-oregon",
+    "nombre": "Sweater Escote V Oregon",
+    "genero": "hombre",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Bordo",
+      "Gris Claro",
+      "Marino",
+      "Negro",
+      "Petroleo"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/sweater-escote-v-oregon.webp",
+      "assets/img/sweater-escote-v-oregon-2.webp"
+    ],
+    "descripcion": "Sweater Escote V Oregon · Composición: Viscosa - Nylon- Viscosa Nylon",
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-escote-v-oregon/"
+  },
+  {
+    "id": "322799095",
+    "slug": "sweater-cuello-redondo-liso-liguria",
+    "nombre": "Sweater Cuello Redondo Liso Liguria",
+    "genero": "hombre",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 29999,
+    "precioHasta": null,
+    "precioPromo": 23999,
+    "colores": [
+      "Amarillo",
+      "Beige",
+      "Celeste",
+      "Marino",
+      "Marron",
+      "Rojo"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "fotos": [
+      "assets/img/sweater-cuello-redondo-liso-liguria.webp",
+      "assets/img/sweater-cuello-redondo-liso-liguria-2.webp"
+    ],
+    "descripcion": "Sweater Cuello Redondo Liso Liguria · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-cuello-redondo-liso-liguria/"
+  },
+  {
+    "id": "295614936",
+    "slug": "sweater-medio-cierre-liso-niza",
+    "nombre": "Sweater Medio Cierre Liso Niza",
+    "genero": "hombre",
+    "subcategoria": "Buzos y sweaters",
+    "precio": 59999,
+    "precioHasta": 69999,
+    "precioPromo": null,
+    "colores": [
+      "Arena",
+      "Bordo",
+      "Gris Melange",
+      "Marino",
+      "Negro",
+      "Verde Musgo",
+      "Navy"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/sweater-medio-cierre-liso-niza.webp",
+      "assets/img/sweater-medio-cierre-liso-niza-2.webp"
+    ],
+    "descripcion": "Sweater Medio Cierre Liso Niza · Composición: Viscosa - Nylon- Viscosa Nylon",
+    "urlTienda": "https://expressmoda.com.ar/productos/sweater-medio-cierre-liso-niza/"
+  },
+  {
+    "id": "240116334",
+    "slug": "jean-regular-gabardina",
+    "nombre": "Jean Regular Gabardina",
+    "genero": "hombre",
+    "subcategoria": "Jeans",
+    "precio": 49999,
+    "precioHasta": 59999,
+    "precioPromo": 47999,
+    "colores": [
+      "Beige",
+      "Cemento",
+      "Marino",
+      "Negro",
+      "Tiza",
+      "Tostado"
+    ],
+    "talles": [
+      "40",
+      "42",
+      "44",
+      "46",
+      "48",
+      "50",
+      "52",
+      "54",
+      "56",
+      "58",
+      "60"
+    ],
+    "fotos": [
+      "assets/img/jean-regular-gabardina.webp",
+      "assets/img/jean-regular-gabardina-2.webp"
+    ],
+    "descripcion": "Jean Regular Gabardina · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-regular-gabardina/"
+  },
+  {
+    "id": "226946925",
+    "slug": "jean-oregon-slim-color",
+    "nombre": "Jean Oregon Slim Color",
+    "genero": "hombre",
+    "subcategoria": "Jeans",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Beige",
+      "Blanco",
+      "Marino",
+      "Militar",
+      "Gris Oscuro",
+      "Negro",
+      "Tostado"
+    ],
+    "talles": [
+      "40",
+      "42",
+      "44",
+      "46",
+      "48",
+      "50",
+      "52",
+      "54",
+      "56"
+    ],
+    "fotos": [
+      "assets/img/jean-oregon-slim-color.webp",
+      "assets/img/jean-oregon-slim-color-2.webp"
+    ],
+    "descripcion": "Jean Oregon Slim Color · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-oregon-slim-color/"
+  },
+  {
+    "id": "295614901",
+    "slug": "jean-relaxed-budapest",
+    "nombre": "Jean Relaxed Budapest",
+    "genero": "hombre",
+    "subcategoria": "Jeans",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Blue",
+      "Celeste",
+      "Crudo",
+      "St.wash",
+      "Militar"
+    ],
+    "talles": [
+      "40",
+      "42",
+      "44",
+      "46",
+      "48",
+      "50",
+      "52",
+      "54"
+    ],
+    "fotos": [
+      "assets/img/jean-relaxed-budapest.webp",
+      "assets/img/jean-relaxed-budapest-2.webp"
+    ],
+    "descripcion": "Jean Relaxed Budapest · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-relaxed-budapest/"
+  },
+  {
+    "id": "347337234",
+    "slug": "jean-slim-londres",
+    "nombre": "Jean Slim Londres",
+    "genero": "hombre",
+    "subcategoria": "Jeans",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Azul",
+      "Gris Oscuro",
+      "St.wash"
+    ],
+    "talles": [
+      "40",
+      "42",
+      "44",
+      "46",
+      "48",
+      "50",
+      "52",
+      "54"
+    ],
+    "fotos": [
+      "assets/img/jean-slim-londres.webp",
+      "assets/img/jean-slim-londres-2.webp"
+    ],
+    "descripcion": "Jean Slim Londres · Composición: Alg/pol/elast- Algodon Poliester Elastano",
+    "urlTienda": "https://expressmoda.com.ar/productos/jean-slim-londres/"
+  },
+  {
+    "id": "241686462",
+    "slug": "chomba-pique-ibiza-manga-corta",
+    "nombre": "Chomba piqué Ibiza manga corta",
+    "genero": "hombre",
+    "subcategoria": "Chombas y remeras",
+    "precio": 39999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Aero",
+      "Blanco",
+      "Celeste",
+      "Gris melange",
+      "Marino",
+      "Militar",
+      "Negro",
+      "Rojo"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL",
+      "4XL"
+    ],
+    "fotos": [
+      "assets/img/chomba-pique-ibiza-manga-corta.webp",
+      "assets/img/chomba-pique-ibiza-manga-corta-2.webp"
+    ],
+    "descripcion": "Chomba Pique Ibiza Manga Corta · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/chomba-pique-ibiza-manga-corta/"
+  },
+  {
+    "id": "267497982",
+    "slug": "remera-manga-larga-lisa-girona",
+    "nombre": "Remera Manga Larga Lisa Girona",
+    "genero": "hombre",
+    "subcategoria": "Chombas y remeras",
+    "precio": 19999,
+    "precioHasta": null,
+    "precioPromo": 15999,
+    "colores": [
+      "Aero",
+      "Arena",
+      "Beige",
+      "Bordo",
+      "Celeste Oscuro",
+      "Marron",
+      "Negro",
+      "Oliva",
+      "Vison"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/remera-manga-larga-lisa-girona.webp",
+      "assets/img/remera-manga-larga-lisa-girona-2.webp"
+    ],
+    "descripcion": "Remera Manga Larga Lisa Girona · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-manga-larga-lisa-girona/"
+  },
+  {
+    "id": "274860321",
+    "slug": "remera-manga-corta-praga-lisa",
+    "nombre": "Remera Manga Corta Praga Lisa",
+    "genero": "hombre",
+    "subcategoria": "Chombas y remeras",
+    "precio": 24999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Blanco",
+      "Celeste",
+      "Gris Claro",
+      "Gris Melange",
+      "Marino",
+      "Negro",
+      "Rojo"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL",
+      "4XL"
+    ],
+    "fotos": [
+      "assets/img/remera-manga-corta-praga-lisa.webp",
+      "assets/img/remera-manga-corta-praga-lisa-2.webp"
+    ],
+    "descripcion": "Remera Manga Corta Praga Lisa · Composición: Poliester - Algodon- Poliester Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-manga-corta-praga-lisa/"
+  },
+  {
+    "id": "267498027",
+    "slug": "remera-manga-larga-viena",
+    "nombre": "Remera Manga Larga Viena",
+    "genero": "hombre",
+    "subcategoria": "Chombas y remeras",
+    "precio": 19999,
+    "precioHasta": null,
+    "precioPromo": 15999,
+    "colores": [
+      "Beige",
+      "Blanco",
+      "Gris Melange",
+      "Militar",
+      "Celeste",
+      "Negro"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL",
+      "4XL"
+    ],
+    "fotos": [
+      "assets/img/remera-manga-larga-viena.webp",
+      "assets/img/remera-manga-larga-viena-2.webp"
+    ],
+    "descripcion": "Remera Manga Larga Viena · Composición: Poliester - Algodon- Poliester Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/remera-manga-larga-viena/"
+  },
+  {
+    "id": "329816910",
+    "slug": "camisa-vestir-slim-dandy-cuello-abierto",
+    "nombre": "Camisa de vestir Slim Dandy cuello abierto",
+    "genero": "hombre",
+    "subcategoria": "Camisas",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Blanco",
+      "Celeste"
+    ],
+    "talles": [
+      "38",
+      "39",
+      "40",
+      "42",
+      "44",
+      "46"
+    ],
+    "fotos": [
+      "assets/img/camisa-vestir-slim-dandy-cuello-abierto.jpg",
+      "assets/img/camisa-vestir-slim-dandy-cuello-abierto-2.webp"
+    ],
+    "descripcion": "Camisa Vestir Slim Dandy Cuello Abierto · Composición: Poliester - Algodon- Poliester Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-vestir-slim-dandy-cuello-abierto/"
+  },
+  {
+    "id": "267497259",
+    "slug": "camisa-corderoy-regular-lexington-m-l",
+    "nombre": "Camisa Corderoy Regular Lexington M-l",
+    "genero": "hombre",
+    "subcategoria": "Camisas",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Camel",
+      "Beige",
+      "Blanco",
+      "Crudo",
+      "Malva",
+      "Marron",
+      "Marino",
+      "Negro"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL",
+      "4XL"
+    ],
+    "fotos": [
+      "assets/img/camisa-corderoy-regular-lexington-m-l.webp",
+      "assets/img/camisa-corderoy-regular-lexington-m-l-2.webp"
+    ],
+    "descripcion": "Camisa Corderoy Regular Lexington M.l · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-corderoy-regular-lexington-m-l/"
+  },
+  {
+    "id": "329817713",
+    "slug": "camisa-sport-regular-lombardia-m-l",
+    "nombre": "Camisa Sport Regular Lombardia M-l",
+    "genero": "hombre",
+    "subcategoria": "Camisas",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Azul",
+      "Beige",
+      "Blanco",
+      "Celeste"
+    ],
+    "talles": [
+      "40",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "fotos": [
+      "assets/img/camisa-sport-regular-lombardia-m-l.webp",
+      "assets/img/camisa-sport-regular-lombardia-m-l-2.webp"
+    ],
+    "descripcion": "Camisa Sport Regular Lombardia M.l · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-sport-regular-lombardia-m-l/"
+  },
+  {
+    "id": "347337293",
+    "slug": "camisa-sport-regular-york-m-larga",
+    "nombre": "Camisa Sport Regular York M-larga",
+    "genero": "hombre",
+    "subcategoria": "Camisas",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": 47999,
+    "colores": [
+      "Azul",
+      "Marron",
+      "Verde",
+      "X"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "fotos": [
+      "assets/img/camisa-sport-regular-york-m-larga.webp",
+      "assets/img/camisa-sport-regular-york-m-larga-2.webp"
+    ],
+    "descripcion": "Camisa Sport Regular York M.larga · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/camisa-sport-regular-york-m-larga/"
+  },
+  {
+    "id": "296451711",
+    "slug": "pantalon-chino-regular-vermont",
+    "nombre": "Pantalon Chino Regular Vermont",
+    "genero": "hombre",
+    "subcategoria": "Pantalones y bermudas",
+    "precio": 59999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Beige",
+      "Gris",
+      "D",
+      "Marino",
+      "Militar",
+      "Negro"
+    ],
+    "talles": [
+      "40",
+      "42",
+      "44",
+      "46",
+      "48",
+      "50",
+      "52",
+      "54",
+      "56",
+      "S"
+    ],
+    "fotos": [
+      "assets/img/pantalon-chino-regular-vermont.webp",
+      "assets/img/pantalon-chino-regular-vermont-2.webp"
+    ],
+    "descripcion": "Pantalon Chino Regular Vermont · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-chino-regular-vermont/"
+  },
+  {
+    "id": "329817615",
+    "slug": "pantalon-chino-slim-austria",
+    "nombre": "Pantalon Chino Slim Austria",
+    "genero": "hombre",
+    "subcategoria": "Pantalones y bermudas",
+    "precio": 79999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Beige",
+      "Gris",
+      "Kaki",
+      "Marino",
+      "Negro"
+    ],
+    "talles": [
+      "38",
+      "40",
+      "42",
+      "44",
+      "46",
+      "48",
+      "50",
+      "52",
+      "54",
+      "56"
+    ],
+    "fotos": [
+      "assets/img/pantalon-chino-slim-austria.webp",
+      "assets/img/pantalon-chino-slim-austria-2.webp"
+    ],
+    "descripcion": "Pantalon Chino Slim Austria · Composición: Algodon Spandex- Algodon 96% Spandex 4%",
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-chino-slim-austria/"
+  },
+  {
+    "id": "320027472",
+    "slug": "bermudas-china-gabardina-mykonos",
+    "nombre": "Bermudas China Gabardina Mykonos",
+    "genero": "hombre",
+    "subcategoria": "Pantalones y bermudas",
+    "precio": 49999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Azul",
+      "Camel",
+      "Militar",
+      "Negro"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "fotos": [
+      "assets/img/bermudas-china-gabardina-mykonos.webp",
+      "assets/img/bermudas-china-gabardina-mykonos-2.webp"
+    ],
+    "descripcion": "Bermudas China Gabardina Mykonos · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/bermudas-china-gabardina-mykonos/"
+  },
+  {
+    "id": "320027416",
+    "slug": "pantalon-cargo-gabard-jogger-creta",
+    "nombre": "Pantalon Cargo Gabard-jogger Creta",
+    "genero": "hombre",
+    "subcategoria": "Pantalones y bermudas",
+    "precio": 39999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Beige",
+      "Gris",
+      "Negro"
+    ],
+    "talles": [
+      "3",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "fotos": [
+      "assets/img/pantalon-cargo-gabard-jogger-creta.webp",
+      "assets/img/pantalon-cargo-gabard-jogger-creta-2.webp"
+    ],
+    "descripcion": "Pantalon Cargo Gabard.jogger Creta · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/pantalon-cargo-gabard-jogger-creta/"
+  },
+  {
+    "id": "262363461",
+    "slug": "camisaco-turin",
+    "nombre": "Camisaco Turín",
+    "genero": "hombre",
+    "subcategoria": "Camperas, abrigos y sacos",
+    "precio": 149999,
+    "precioHasta": null,
+    "precioPromo": 119999,
+    "colores": [
+      "Beige",
+      "Gris"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/camisaco-turin.webp",
+      "assets/img/camisaco-turin-2.webp"
+    ],
+    "descripcion": "Camisaco Turin · Composición: Poliester-sp- 92% Poliester 8% Spandex",
+    "urlTienda": "https://expressmoda.com.ar/productos/camisaco-turin/"
+  },
+  {
+    "id": "262363554",
+    "slug": "campera-aspen-inflada-c-capucha",
+    "nombre": "Campera Aspen Inflada C-capucha",
+    "genero": "hombre",
+    "subcategoria": "Camperas, abrigos y sacos",
+    "precio": 79999,
+    "precioHasta": null,
+    "precioPromo": 63999,
+    "colores": [
+      "Black",
+      "Blue",
+      "Green"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/campera-aspen-inflada-c-capucha.webp",
+      "assets/img/campera-aspen-inflada-c-capucha-2.webp"
+    ],
+    "descripcion": "Campera Aspen Inflada C.capucha · Composición: Polyester",
+    "urlTienda": "https://expressmoda.com.ar/productos/campera-aspen-inflada-c-capucha/"
+  },
+  {
+    "id": "262363871",
+    "slug": "sobretodo-recto-con-cuello-viena",
+    "nombre": "Sobretodo Recto Con Cuello Viena",
+    "genero": "hombre",
+    "subcategoria": "Camperas, abrigos y sacos",
+    "precio": 169999,
+    "precioHasta": null,
+    "precioPromo": 135999,
+    "colores": [
+      "Gris Oscuro",
+      "Marino",
+      "Negro",
+      "Vison"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/sobretodo-recto-con-cuello-viena.webp",
+      "assets/img/sobretodo-recto-con-cuello-viena-2.webp"
+    ],
+    "descripcion": "Sobretodo Recto Con Cuello Viena · Composición: Poliester Rayon Spandex",
+    "urlTienda": "https://expressmoda.com.ar/productos/sobretodo-recto-con-cuello-viena/"
+  },
+  {
+    "id": "267497511",
+    "slug": "gaban-estocolmo-derecho",
+    "nombre": "Gaban Estocolmo Derecho",
+    "genero": "hombre",
+    "subcategoria": "Camperas, abrigos y sacos",
+    "precio": 169999,
+    "precioHasta": null,
+    "precioPromo": 135999,
+    "colores": [
+      "Marron",
+      "Negro",
+      "Verde"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/gaban-estocolmo-derecho.webp",
+      "assets/img/gaban-estocolmo-derecho-2.webp"
+    ],
+    "descripcion": "Gaban Estocolmo Derecho · Composición: Poliester Mezcla",
+    "urlTienda": "https://expressmoda.com.ar/productos/gaban-estocolmo-derecho/"
+  },
+  {
+    "id": "205088131",
+    "slug": "boxer-con-lycra-stanford-polo-club",
+    "nombre": "Boxer Con Lycra Stanford Polo Club",
+    "genero": "hombre",
+    "subcategoria": "Accesorios y complementos",
+    "precio": 17999,
+    "precioHasta": null,
+    "precioPromo": 14399,
+    "colores": [
+      "Blanco",
+      "Gris Melange",
+      "Gris Oscuro",
+      "Malva",
+      "Marino",
+      "Militar",
+      "Negro"
+    ],
+    "talles": [
+      "61",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "fotos": [
+      "assets/img/boxer-con-lycra-stanford-polo-club.webp",
+      "assets/img/boxer-con-lycra-stanford-polo-club-2.webp"
+    ],
+    "descripcion": "Boxer Con Lycra Stanford Polo Club · Composición: Lycra",
+    "urlTienda": "https://expressmoda.com.ar/productos/boxer-con-lycra-stanford-polo-club/"
+  },
+  {
+    "id": "205147959",
+    "slug": "slip-stanford-polo-club",
+    "nombre": "Slip Stanford Polo Club",
+    "genero": "hombre",
+    "subcategoria": "Accesorios y complementos",
+    "precio": 13999,
+    "precioHasta": null,
+    "precioPromo": 11199,
+    "colores": [
+      "Blanco",
+      "Francia",
+      "Gris Claro",
+      "Gris Medio",
+      "Gris Melange",
+      "Gris Oscuro",
+      "Marino",
+      "Militar",
+      "Negro",
+      "Rojo",
+      "Rosa",
+      "Varios"
+    ],
+    "talles": [
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL",
+      "3XL"
+    ],
+    "fotos": [
+      "assets/img/slip-stanford-polo-club.webp",
+      "assets/img/slip-stanford-polo-club-2.webp"
+    ],
+    "descripcion": "Slip Stanford Polo Club · Composición: Algodon",
+    "urlTienda": "https://expressmoda.com.ar/productos/slip-stanford-polo-club/"
+  },
+  {
+    "id": "320026981",
+    "slug": "gorra-cap-gabardina-lavada-07n",
+    "nombre": "Gorra Cap Gabardina Lavada 07n",
+    "genero": "hombre",
+    "subcategoria": "Accesorios y complementos",
+    "precio": 19999,
+    "precioHasta": null,
+    "precioPromo": null,
+    "colores": [
+      "Azul",
+      "Beige",
+      "Gris",
+      "Marron",
+      "Gris Oscuro",
+      "Negro"
+    ],
+    "talles": [
+      "S"
+    ],
+    "fotos": [
+      "assets/img/gorra-cap-gabardina-lavada-07n.webp",
+      "assets/img/gorra-cap-gabardina-lavada-07n-2.webp"
+    ],
+    "descripcion": "Gorra Cap Gabardina Lavada 07n · Composición: Polyester",
+    "urlTienda": "https://expressmoda.com.ar/productos/gorra-cap-gabardina-lavada-07n/"
+  },
+  {
+    "id": "320027099",
+    "slug": "mochila-con-cierres-b3002",
+    "nombre": "Mochila Con Cierres B3002",
+    "genero": "hombre",
+    "subcategoria": "Accesorios y complementos",
+    "precio": 49999,
+    "precioHasta": null,
+    "precioPromo": 39999,
+    "colores": [
+      "Beige",
+      "Gris",
+      "Negro"
+    ],
+    "talles": [
+      "S"
+    ],
+    "fotos": [
+      "assets/img/mochila-con-cierres-b3002.webp",
+      "assets/img/mochila-con-cierres-b3002-2.webp"
+    ],
+    "descripcion": "Mochila Con Cierres B3002 · Composición: Polyester",
+    "urlTienda": "https://expressmoda.com.ar/productos/mochila-con-cierres-b3002/"
+  }
+]

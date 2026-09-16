@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Express Moda · Moda para mujer y hombre desde hace tres generaciones</title>
+  <meta name="description" content="Express Moda: indumentaria para mujer y hombre desde hace tres generaciones. Locales en Mar del Plata y Villa Crespo (Buenos Aires). Consultá por WhatsApp.">
+  <meta name="theme-color" content="#111111">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20fill='%23111111'/%3E%3Ctext%20x='50%25'%20y='55%25'%20dominant-baseline='middle'%20text-anchor='middle'%20font-family='Georgia,serif'%20font-size='42'%20fill='%23f4f1ea'%3EE%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,600;1,9..144,300&family=Manrope:wght@400;500;700&display=swap">
+  <link rel="preload" as="image" href="assets/img/hero.webp" fetchpriority="high">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Activa los estados iniciales de animación. Si main.js no llega a ejecutarse
+    // en 4 s (404, red, bloqueador), se vuelve al modo estático.
+    document.documentElement.classList.add('js');
+    setTimeout(function () {
+      var h = document.documentElement;
+      if (!h.classList.contains('js-ready')) { h.classList.remove('js'); }
+    }, 4000);
+  </script>
+</head>
+<body>
+
+  <a class="skip-link" href="#catalogo">Ir al catálogo</a>
+
+  <header class="topbar">
+    <a class="topbar__logo" href="#inicio">
+      <img src="assets/img/logo.png" alt="Express Moda" width="575" height="230">
+    </a>
+    <nav class="topbar__nav" aria-label="Secciones">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#nosotros">Nosotros</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+
+    <!-- ============ 1. INICIO ============ -->
+
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Mar del Plata · Villa Crespo · Tienda online</p>
+        <h1 id="hero-title" class="hero__title">Moda para mujer y hombre, desde hace <em>tres generaciones</em></h1>
+        <a class="btn btn--dark hero__cta" href="#catalogo">
+          Ver catálogo
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="12" y1="5" x2="12" y2="19"/><polyline points="19 12 12 19 5 12"/></svg>
+        </a>
+      </div>
+      <div class="hero__visual">
+        <div class="hero__media" data-parallax="0.22">
+          <img class="hero__img" src="assets/img/hero.webp" alt="Campaña Express Moda: una pareja con abrigos de la colección otoño invierno" width="1920" height="1080" fetchpriority="high" decoding="async">
+        </div>
+      </div>
+    </section>
+
+    <section class="genders" aria-label="Elegí tu sección">
+      <a class="gender gender--mujer" href="#catalogo" data-filter="mujer" aria-label="Mujer: ver prendas en el catálogo">
+        <span class="gender__word" aria-hidden="true">Mujer</span>
+        <span class="gender__inner reveal">
+          <span class="gender__media">
+            <span class="gender__layer" data-parallax="0.2">
+              <img src="assets/img/mujer.webp" alt="" width="930" height="465" loading="lazy" decoding="async">
+            </span>
+          </span>
+          <span class="gender__foot">
+            <span>Mujer</span>
+            <span class="gender__cta">Ver prendas <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </span>
+        </span>
+      </a>
+      <a class="gender gender--hombre" href="#catalogo" data-filter="hombre" aria-label="Hombre: ver prendas en el catálogo">
+        <span class="gender__word" aria-hidden="true">Hombre</span>
+        <span class="gender__inner reveal">
+          <span class="gender__media">
+            <span class="gender__layer" data-parallax="0.2">
+              <img src="assets/img/hombre.webp" alt="" width="930" height="465" loading="lazy" decoding="async">
+            </span>
+          </span>
+          <span class="gender__foot">
+            <span>Hombre</span>
+            <span class="gender__cta">Ver prendas <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg></span>
+          </span>
+        </span>
+      </a>
+    </section>
+
+    <section class="benefits" aria-label="Beneficios">
+      <div class="marquee">
+        <ul class="marquee__track">
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            Envío gratis en compras a partir de <em>$100.000</em>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            <em>3 cuotas</em> sin interés
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <em>6 cuotas</em> sin interés en compras a partir de <em>$150.000</em>
+          </li>
+        </ul>
+        <ul class="marquee__track" aria-hidden="true">
+          <li>
+            <svg viewBox="0 0 24 24" focusable="false"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+            Envío gratis en compras a partir de <em>$100.000</em>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" focusable="false"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
+            <em>3 cuotas</em> sin interés
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" focusable="false"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            <em>6 cuotas</em> sin interés en compras a partir de <em>$150.000</em>
+          </li>
+        </ul>
+      </div>
+      <button class="marquee__toggle" type="button" aria-pressed="false" aria-label="Pausar el movimiento de los beneficios">
+        <svg class="marquee__ico-pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="9" y1="5" x2="9" y2="19"/><line x1="15" y1="5" x2="15" y2="19"/></svg>
+        <svg class="marquee__ico-play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="7 4 19 12 7 20 7 4"/></svg>
+      </button>
+    </section>
+
+    <!-- ============ 2. CATÁLOGO ============ -->
+
+    <section id="catalogo" class="catalog" aria-labelledby="catalogo-title">
+      <div class="catalog__head reveal">
+        <div>
+          <p class="eyebrow">Catálogo</p>
+          <h2 id="catalogo-title" class="section-title">Ocho prendas para <em>esta temporada</em></h2>
+        </div>
+        <div class="filters" role="group" aria-label="Filtrar catálogo">
+          <button class="filter" type="button" data-filter="todos" aria-pressed="true">Todos</button>
+          <button class="filter" type="button" data-filter="mujer" aria-pressed="false">Mujer</button>
+          <button class="filter" type="button" data-filter="hombre" aria-pressed="false">Hombre</button>
+        </div>
+        <p id="filter-status" class="visually-hidden" aria-live="polite"></p>
+      </div>
+
+      <ul class="grid" id="grid">
+
+        <li class="card reveal" data-gender="mujer">
+          <figure class="card__media">
+            <img src="assets/img/jean-wide-leg-i26.jpg" alt="Jean Wide Leg I26" width="1024" height="1536" loading="lazy" decoding="async">
+            <span class="card__tag">Mujer</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__name">Jean Wide Leg I26</h3>
+            <p class="card__price">
+              <s class="price--old"><span class="visually-hidden">Antes</span> $59.999</s>
+              <strong class="price--promo"><span class="visually-hidden">Ahora</span> $47.999</strong>
+              <span class="card__promo">Promo</span>
+            </p>
+            <dl class="card__meta">
+              <div><dt>Colores</dt><dd>Azul, Celeste, Negro, Óxido</dd></div>
+              <div><dt>Talles</dt><dd>26 a 36</dd></div>
+            </dl>
+            <a class="btn btn--wa" href="https://wa.me/5491127120131?text=Hola!%20Quiero%20consultar%20por%20Jean%20Wide%20Leg%20I26." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
+              <span class="btn__long">Consultar por </span>WhatsApp<span class="visually-hidden"> por Jean Wide Leg I26</span>
+            </a>
+          </div>
+        </li>
+
+        <li class="card reveal" data-gender="mujer">
+          <figure class="card__media">
+            <img src="assets/img/jean-flare-i26.webp" alt="Jean Flare I26" width="853" height="1280" loading="lazy" decoding="async">
+            <span class="card__tag">Mujer</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__name">Jean Flare I26</h3>
+            <p class="card__price">
+              <s class="price--old"><span class="visually-hidden">Antes</span> $59.999</s>
+              <strong class="price--promo"><span class="visually-hidden">Ahora</span> $47.999</strong>
+              <span class="card__promo">Promo</span>
+            </p>
+            <dl class="card__meta">
+              <div><dt>Colores</dt><dd>Azul, Azul claro, Gris, Negro</dd></div>
+              <div><dt>Talles</dt><dd>26 a 36</dd></div>
+            </dl>
+            <a class="btn btn--wa" href="https://wa.me/5491127120131?text=Hola!%20Quiero%20consultar%20por%20Jean%20Flare%20I26." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
+              <span class="btn__long">Consultar por </span>WhatsApp<span class="visually-hidden"> por Jean Flare I26</span>
+            </a>
+          </div>
+        </li>
+
+        <li class="card reveal" data-gender="mujer">
+          <figure class="card__media">
+            <img src="assets/img/vestido-citrino.webp" alt="Vestido Citrino" width="1024" height="1433" loading="lazy" decoding="async">
+            <span class="card__tag">Mujer</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__name">Vestido Citrino</h3>
+            <p class="card__price">
+              <strong class="price">$39.999</strong>
+            </p>
+            <dl class="card__meta">
+              <div><dt>Colores</dt><dd>Azul, Beige, Celeste</dd></div>
+              <div><dt>Talles</dt><dd>1 a 4</dd></div>
+            </dl>
+            <a class="btn btn--wa" href="https://wa.me/5491127120131?text=Hola!%20Quiero%20consultar%20por%20Vestido%20Citrino." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
+              <span class="btn__long">Consultar por </span>WhatsApp<span class="visually-hidden"> por Vestido Citrino</span>
+            </a>
+          </div>
+        </li>
+
+        <li class="card reveal" data-gender="mujer">
+          <figure class="card__media">
+            <img src="assets/img/camisa-degas.webp" alt="Camisa Degas" width="640" height="896" loading="lazy" decoding="async">
+            <span class="card__tag">Mujer</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__name">Camisa Degas</h3>
+            <p class="card__price">
+              <strong class="price">$29.999</strong>
+            </p>
+            <dl class="card__meta">
+              <div><dt>Colores</dt><dd>Azul</dd></div>
+              <div><dt>Talles</dt><dd>1 a 3</dd></div>
+            </dl>
+            <a class="btn btn--wa" href="https://wa.me/5491127120131?text=Hola!%20Quiero%20consultar%20por%20Camisa%20Degas." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
+              <span class="btn__long">Consultar por </span>WhatsApp<span class="visually-hidden"> por Camisa Degas</span>
+            </a>
+          </div>
+        </li>
+
+        <li class="card reveal" data-gender="hombre">
+          <figure class="card__media">
+            <img src="assets/img/camisa-vestir-slim-dandy-cuello-abierto.jpg" alt="Camisa de vestir Slim Dandy cuello abierto" width="832" height="1248" loading="lazy" decoding="async">
+            <span class="card__tag">Hombre</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__name">Camisa de vestir Slim Dandy cuello abierto</h3>
+            <p class="card__price">
+              <s class="price--old"><span class="visually-hidden">Antes</span> $59.999</s>
+              <strong class="price--promo"><span class="visually-hidden">Ahora</span> $47.999</strong>
+              <span class="card__promo">Promo</span>
+            </p>
+            <dl class="card__meta">
+              <div><dt>Colores</dt><dd>Blanco, Celeste</dd></div>
+              <div><dt>Talles</dt><dd>38 a 46</dd></div>
+            </dl>
+            <a class="btn btn--wa" href="https://wa.me/5491127120131?text=Hola!%20Quiero%20consultar%20por%20Camisa%20de%20vestir%20Slim%20Dandy%20cuello%20abierto." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
+              <span class="btn__long">Consultar por </span>WhatsApp<span class="visually-hidden"> por Camisa de vestir Slim Dandy cuello abierto</span>
+            </a>
+          </div>
+        </li>
+
+        <li class="card reveal" data-gender="hombre">
+          <figure class="card__media">
+            <img src="assets/img/jean-regular-gabardina.webp" alt="Jean Regular Gabardina" width="640" height="896" loading="lazy" decoding="async">
+            <span class="card__tag">Hombre</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__name">Jean Regular Gabardina</h3>
+            <p class="card__price">
+              <s class="price--old"><span class="visually-hidden">Antes</span> $49.999 a $59.999</s>
+              <strong class="price--promo"><span class="visually-hidden">Ahora</span> $47.999</strong>
+              <span class="card__promo">Promo</span>
+            </p>
+            <dl class="card__meta">
+              <div><dt>Colores</dt><dd>Beige, Cemento, Marino, Negro, Tiza, Tostado</dd></div>
+              <div><dt>Talles</dt><dd>40 a 60</dd></div>
+            </dl>
+            <a class="btn btn--wa" href="https://wa.me/5491127120131?text=Hola!%20Quiero%20consultar%20por%20Jean%20Regular%20Gabardina." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
+              <span class="btn__long">Consultar por </span>WhatsApp<span class="visually-hidden"> por Jean Regular Gabardina</span>
+            </a>
+          </div>
+        </li>
+
+        <li class="card reveal" data-gender="hombre">
+          <figure class="card__media">
+            <img src="assets/img/chomba-pique-ibiza-manga-corta.webp" alt="Chomba piqué Ibiza manga corta" width="1024" height="1434" loading="lazy" decoding="async">
+            <span class="card__tag">Hombre</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__name">Chomba piqué Ibiza manga corta</h3>
+            <p class="card__price">
+              <strong class="price">$39.999</strong>
+            </p>
+            <dl class="card__meta">
+              <div><dt>Colores</dt><dd>Aero, Blanco, Celeste, Gris melange, Marino, Militar, Negro, Rojo</dd></div>
+              <div><dt>Talles</dt><dd>S a 4XL</dd></div>
+            </dl>
+            <a class="btn btn--wa" href="https://wa.me/5491127120131?text=Hola!%20Quiero%20consultar%20por%20Chomba%20piqu%C3%A9%20Ibiza%20manga%20corta." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
+              <span class="btn__long">Consultar por </span>WhatsApp<span class="visually-hidden"> por Chomba piqué Ibiza manga corta</span>
+            </a>
+          </div>
+        </li>
+
+        <li class="card reveal" data-gender="hombre">
+          <figure class="card__media">
+            <img src="assets/img/camisaco-turin.webp" alt="Camisaco Turín" width="1024" height="1434" loading="lazy" decoding="async">
+            <span class="card__tag">Hombre</span>
+          </figure>
+          <div class="card__body">
+            <h3 class="card__name">Camisaco Turín</h3>
+            <p class="card__price">
+              <s class="price--old"><span class="visually-hidden">Antes</span> $149.999</s>
+              <strong class="price--promo"><span class="visually-hidden">Ahora</span> $119.999</strong>
+              <span class="card__promo">Promo</span>
+            </p>
+            <dl class="card__meta">
+              <div><dt>Colores</dt><dd>Beige, Gris</dd></div>
+              <div><dt>Talles</dt><dd>S a XXL</dd></div>
+            </dl>
+            <a class="btn btn--wa" href="https://wa.me/5491127120131?text=Hola!%20Quiero%20consultar%20por%20Camisaco%20Tur%C3%ADn." target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false" class="ico-wa"><use href="#ico-wa"/></svg>
+              <span class="btn__long">Consultar por </span>WhatsApp<span class="visually-hidden"> por Camisaco Turín</span>
+            </a>
+          </div>
+        </li>
+
+      </ul>
+    </section>
+
+    <!-- ============ 3. QUIÉNES SOMOS ============ -->
+
+    <section id="nosotros" class="about" aria-labelledby="nosotros-title">
+      <div class="about__text reveal">
+        <h2 id="nosotros-title" class="eyebrow">Quiénes somos</h2>
+        <p class="about__lead">Tres generaciones dedicadas a la <em>moda</em>.</p>
+        <p>Esa tradición familiar es nuestra garantía de calidad: cada prenda que vendemos, para mujer y hombre, pasa por el mismo criterio de siempre. Nos encontrás en Mar del Plata, en Villa Crespo (Buenos Aires) y en nuestra tienda online.</p>
+      </div>
+      <figure class="about__media reveal">
+        <!-- Foto de campaña de la tienda. Reemplazar por una foto del local o de la familia cuando haya. -->
+        <img src="assets/img/nosotros.webp" alt="Campaña Express Moda en blanco y negro: tapado negro sobre polera blanca y jean" width="1920" height="960" loading="lazy" decoding="async">
+      </figure>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <a class="footer__logo" href="#inicio">
+        <img src="assets/img/logo.png" alt="Express Moda" width="575" height="230" loading="lazy" decoding="async">
+      </a>
+      <nav class="footer__nav" aria-label="Enlaces a la tienda online">
+        <a href="https://expressmoda.com.ar/" target="_blank" rel="noopener">Tienda completa</a>
+        <a href="https://expressmoda.com.ar/sale/" target="_blank" rel="noopener">Feria</a>
+        <a href="https://expressmoda.com.ar/gift-cards1/" target="_blank" rel="noopener">Gift cards</a>
+        <a href="https://expressmoda.com.ar/mas-uniformes-empresas/" target="_blank" rel="noopener">Uniformes</a>
+      </nav>
+      <!-- Placeholder: reemplazar el href por la URL del perfil de Instagram y el texto [INSTAGRAM] por "Instagram" -->
+      <a class="footer__social" href="#instagram" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.75" fill="currentColor"/></svg>
+        [INSTAGRAM]
+      </a>
+      <p class="footer__copy">Express Moda · Mar del Plata · Villa Crespo, Buenos Aires · <a href="https://wa.me/5491127120131?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener">WhatsApp +54 9 11 2712 0131</a></p>
+    </div>
+  </footer>
+
+  <!-- ============ 4. WHATSAPP FLOTANTE ============ -->
+
+  <a class="wa-float" href="https://wa.me/5491127120131?text=Hola!%20Vi%20la%20web%20de%20Express%20Moda%20y%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" aria-label="Consultar por WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="#ico-wa"/></svg>
+  </a>
+
+  <!-- Símbolo compartido del ícono de WhatsApp (se referencia con <use href="#ico-wa">) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="ico-wa" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.885-9.885 9.885m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></symbol>
+  </svg>
+
+  <script src="main.js" defer onerror="document.documentElement.classList.remove('js')"></script>
+</body>
+</html>

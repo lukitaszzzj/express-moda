@@ -354,6 +354,42 @@
     <div class="overlay__inner" id="pd"></div>
   </div>
 
+  <!-- Carrito (drawer). El contenido lo arma main.js y persiste en localStorage. -->
+  <div class="drawer-wrap" id="cart" role="dialog" aria-modal="true" aria-labelledby="cart-title" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <aside class="drawer">
+      <div class="drawer__head">
+        <h2 id="cart-title">Tu carrito</h2>
+        <button class="close-btn" type="button" data-close aria-label="Cerrar carrito">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="drawer__body" id="cart-body"></div>
+      <div class="drawer__foot">
+        <div class="ship" id="ship">
+          <p id="ship-text"></p>
+          <div class="ship__bar" aria-hidden="true"><div class="ship__fill" id="ship-fill"></div></div>
+        </div>
+        <p class="subtotal"><small>Subtotal</small> <span id="cart-subtotal">$0</span></p>
+        <button class="btn btn--dark btn--block" type="button" id="cart-checkout">Finalizar compra</button>
+      </div>
+    </aside>
+  </div>
+
+  <!-- Aviso de demo al finalizar compra -->
+  <div class="modal" id="modal-demo" role="dialog" aria-modal="true" aria-labelledby="modal-demo-title" hidden>
+    <div class="modal__backdrop" data-close></div>
+    <div class="modal__panel">
+      <button class="close-btn" type="button" data-close aria-label="Cerrar">
+        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/></svg>
+      </button>
+      <p class="eyebrow">Finalizar compra</p>
+      <h2 id="modal-demo-title" class="modal__title">Esta web es <em>una demo</em></h2>
+      <p class="demo-note"><strong>Esta web es una demo. Para comprar, entrá a <a href="https://expressmoda.com.ar/" target="_blank" rel="noopener">expressmoda.com.ar</a></strong></p>
+      <a class="btn btn--dark modal__cta" href="https://expressmoda.com.ar/" target="_blank" rel="noopener" style="margin-top:1.5rem">Ir a expressmoda.com.ar</a>
+    </div>
+  </div>
+
   <!-- Búsqueda -->
   <div class="overlay overlay--search" id="search" role="dialog" aria-modal="true" aria-labelledby="search-title" hidden>
     <div class="overlay__backdrop" data-close></div>

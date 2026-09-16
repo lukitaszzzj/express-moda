@@ -215,6 +215,15 @@ button {
   width: 100%;
 }
 
+.btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn:disabled:hover {
+  transform: none;
+}
+
 .link-btn {
   padding: 0;
   border: 0;

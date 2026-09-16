@@ -33,6 +33,7 @@
       setupCatalog();
       setupProduct();
       setupCart();
+      setupRecs();
       setupRouter();
       watchMotionPreference();
       loadProducts();
@@ -1027,6 +1028,53 @@
 
   function setupCart() {
     Cart.init();
+  }
+
+  /* ---------- "En base a tu última búsqueda" ---------- */
+
+  var Recs = {
+    init: function () {
+      this.el = document.getElementById('recs');
+      this.grid = document.getElementById('recs-grid');
+      this.note = document.getElementById('recs-note');
+      if (!this.el || !this.grid) { return; }
+      var self = this;
+      document.addEventListener('em:products', function () { self.update(); });
+      document.addEventListener('em:product-closed', function () { self.update(); });
+    },
+
+    picks: function (last) {
+      var same = EM.products.filter(function (p) {
+        return p.id !== last.id && p.genero === last.genero && p.subcategoria === last.subcategoria;
+      });
+      var out = same.slice(0, 4);
+      if (out.length < 4) {
+        var fill = EM.products.filter(function (p) {
+          return p.id !== last.id && p.genero === last.genero && out.indexOf(p) === -1;
+        });
+        out = out.concat(fill.slice(0, 4 - out.length));
+      }
+      return out;
+    },
+
+    update: function () {
+      var last = storageGet('em_lastViewed', null);
+      if (!last || !last.id || !EM.products.length) { this.el.hidden = true; return; }
+      var list = this.picks(last);
+      if (!list.length) { this.el.hidden = true; return; }
+      var seen = EM.byId[last.id];
+      if (this.note) {
+        this.note.textContent = seen
+          ? 'Porque viste ' + seen.nombre + ' · ' + cap(seen.genero) + ', ' + seen.subcategoria
+          : 'Porque viste ' + cap(last.genero) + ', ' + last.subcategoria;
+      }
+      this.el.hidden = false;
+      renderCards(this.grid, list, true);
+    }
+  };
+
+  function setupRecs() {
+    Recs.init();
   }
 
   /* ---------- Router por hash: #catalogo/..., #p/slug ---------- */

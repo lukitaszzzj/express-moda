@@ -150,18 +150,29 @@
     window.addEventListener('load', function () { measure(); onScroll(); });
   }
 
-  /* ---------- Marquee: botón de pausa ---------- */
+  /* ---------- Marquee superior: botón de pausa y altura real del bloque fijo ---------- */
 
   function setupMarquee() {
-    var benefits = document.querySelector('.benefits');
-    var toggle = benefits && benefits.querySelector('.marquee__toggle');
-    if (!toggle) { return; }
+    var promo = document.querySelector('.promo');
+    var toggle = promo && promo.querySelector('.promo__toggle');
+    var top = document.querySelector('.site-top');
 
-    toggle.addEventListener('click', function () {
-      var paused = benefits.classList.toggle('is-paused');
-      toggle.setAttribute('aria-pressed', paused ? 'true' : 'false');
-      toggle.setAttribute('aria-label', (paused ? 'Reanudar' : 'Pausar') + ' el movimiento de los beneficios');
-    });
+    if (toggle) {
+      toggle.addEventListener('click', function () {
+        var paused = promo.classList.toggle('is-paused');
+        toggle.setAttribute('aria-pressed', paused ? 'true' : 'false');
+        toggle.setAttribute('aria-label', (paused ? 'Reanudar' : 'Pausar') + ' el movimiento de los beneficios');
+      });
+    }
+
+    // El bloque fijo puede crecer (mensajes en varias líneas con movimiento reducido):
+    // se publica su altura real para que el hero y los anclajes no queden tapados.
+    if (top) {
+      var publish = function () { html.style.setProperty('--top-h', top.offsetHeight + 'px'); };
+      publish();
+      if ('ResizeObserver' in window) { new ResizeObserver(publish).observe(top); }
+      else { window.addEventListener('resize', publish); }
+    }
   }
 
   /* ---------- Catálogo: filtros con transición ---------- */

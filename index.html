@@ -26,15 +26,50 @@
 
   <a class="skip-link" href="#catalogo">Ir al catálogo</a>
 
-  <header class="topbar">
-    <a class="topbar__logo" href="#inicio">
-      <img src="assets/img/logo.png" alt="Express Moda" width="575" height="230">
-    </a>
-    <nav class="topbar__nav" aria-label="Secciones">
-      <a href="#catalogo">Catálogo</a>
-      <a href="#nosotros">Nosotros</a>
-    </nav>
-  </header>
+  <div class="site-top">
+
+    <!-- ============ 1. BARRA DE BENEFICIOS (marquee) ============ -->
+    <div class="promo" role="region" aria-label="Beneficios">
+      <p class="visually-hidden">3 CUOTAS sin interés y 6 a partir de $150.000 de compra. ENVÍO GRATIS a partir de $100.000.</p>
+      <div class="promo__marquee" aria-hidden="true">
+        <ul class="promo__track">
+          <li>3 CUOTAS sin interés y 6 a partir de $150.000 de compra</li>
+          <li class="promo__dot">·</li>
+          <li>ENVÍO GRATIS a partir de $100.000</li>
+          <li class="promo__dot">·</li>
+          <li>3 CUOTAS sin interés y 6 a partir de $150.000 de compra</li>
+          <li class="promo__dot">·</li>
+          <li>ENVÍO GRATIS a partir de $100.000</li>
+          <li class="promo__dot">·</li>
+        </ul>
+        <ul class="promo__track">
+          <li>3 CUOTAS sin interés y 6 a partir de $150.000 de compra</li>
+          <li class="promo__dot">·</li>
+          <li>ENVÍO GRATIS a partir de $100.000</li>
+          <li class="promo__dot">·</li>
+          <li>3 CUOTAS sin interés y 6 a partir de $150.000 de compra</li>
+          <li class="promo__dot">·</li>
+          <li>ENVÍO GRATIS a partir de $100.000</li>
+          <li class="promo__dot">·</li>
+        </ul>
+      </div>
+      <button class="promo__toggle" type="button" aria-pressed="false" aria-label="Pausar el movimiento de los beneficios">
+        <svg class="promo__ico-pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="9" y1="5" x2="9" y2="19"/><line x1="15" y1="5" x2="15" y2="19"/></svg>
+        <svg class="promo__ico-play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="7 4 19 12 7 20 7 4"/></svg>
+      </button>
+    </div>
+
+    <header class="topbar">
+      <a class="topbar__logo" href="#inicio">
+        <img src="assets/img/logo.png" alt="Express Moda" width="575" height="230">
+      </a>
+      <nav class="topbar__nav" aria-label="Secciones">
+        <a href="#catalogo">Catálogo</a>
+        <a href="#nosotros">Nosotros</a>
+      </nav>
+    </header>
+
+  </div>
 
   <main id="inicio">
 
@@ -85,43 +120,6 @@
           </span>
         </span>
       </a>
-    </section>
-
-    <section class="benefits" aria-label="Beneficios">
-      <div class="marquee">
-        <ul class="marquee__track">
-          <li>
-            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-            Envío gratis en compras a partir de <em>$100.000</em>
-          </li>
-          <li>
-            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
-            <em>3 cuotas</em> sin interés
-          </li>
-          <li>
-            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            <em>6 cuotas</em> sin interés en compras a partir de <em>$150.000</em>
-          </li>
-        </ul>
-        <ul class="marquee__track" aria-hidden="true">
-          <li>
-            <svg viewBox="0 0 24 24" focusable="false"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
-            Envío gratis en compras a partir de <em>$100.000</em>
-          </li>
-          <li>
-            <svg viewBox="0 0 24 24" focusable="false"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>
-            <em>3 cuotas</em> sin interés
-          </li>
-          <li>
-            <svg viewBox="0 0 24 24" focusable="false"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
-            <em>6 cuotas</em> sin interés en compras a partir de <em>$150.000</em>
-          </li>
-        </ul>
-      </div>
-      <button class="marquee__toggle" type="button" aria-pressed="false" aria-label="Pausar el movimiento de los beneficios">
-        <svg class="marquee__ico-pause" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><line x1="9" y1="5" x2="9" y2="19"/><line x1="15" y1="5" x2="15" y2="19"/></svg>
-        <svg class="marquee__ico-play" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><polygon points="7 4 19 12 7 20 7 4"/></svg>
-      </button>
     </section>
 
     <!-- ============ 2. CATÁLOGO ============ -->

@@ -23,7 +23,9 @@
 
   --gutter: clamp(1rem, 4vw, 3.5rem);
   --max: 1440px;
+  --promo-h: 2.25rem;
   --header-h: 4.5rem;
+  --top-h: calc(var(--promo-h) + var(--header-h));
   --ease-out: cubic-bezier(0.2, 0.7, 0.2, 1);
   --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
 }
@@ -38,7 +40,7 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: var(--header-h);
+  scroll-padding-top: var(--top-h);
   -webkit-text-size-adjust: 100%;
 }
 
@@ -96,7 +98,7 @@ a {
   outline-offset: 3px;
 }
 
-.benefits :focus-visible,
+.promo :focus-visible,
 .footer :focus-visible {
   outline-color: var(--bone);
 }
@@ -190,12 +192,130 @@ a {
   transform: translateY(-3px);
 }
 
-/* ---------- Barra superior ---------- */
+/* ---------- Bloque fijo superior: marquee + header ---------- */
 
-.topbar {
+.site-top {
   position: fixed;
   inset: 0 0 auto 0;
   z-index: 50;
+}
+
+/* Marquee de beneficios */
+
+.promo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: var(--promo-h);
+  overflow: hidden;
+  background: var(--ink);
+  color: var(--white);
+}
+
+.promo__marquee {
+  display: flex;
+  width: 100%;
+}
+
+.promo__track {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  min-width: 100%;
+  margin: 0;
+  padding: 0 1rem;
+  list-style: none;
+  white-space: nowrap;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.promo__dot {
+  opacity: 0.5;
+}
+
+.js .promo__track {
+  animation: marquee 32s linear infinite;
+}
+
+.promo:hover .promo__track,
+.promo.is-paused .promo__track {
+  animation-play-state: paused;
+}
+
+/* Control de pausa (WCAG 2.2.2). Solo tiene sentido con JS. */
+.promo__toggle {
+  position: absolute;
+  top: 50%;
+  right: 0.4rem;
+  display: grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--white);
+  box-shadow: -8px 0 12px var(--ink);
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.promo__toggle svg {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+.promo__toggle .promo__ico-play,
+.promo.is-paused .promo__ico-pause {
+  display: none;
+}
+
+.promo.is-paused .promo__ico-play {
+  display: block;
+}
+
+/* Sin JS la barra no se mueve: los dos mensajes se muestran en líneas. */
+html:not(.js) .promo__toggle {
+  display: none;
+}
+
+html:not(.js) .promo__marquee {
+  flex-wrap: wrap;
+}
+
+html:not(.js) .promo__track {
+  flex: 0 0 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.25rem 1.25rem;
+  min-width: 0;
+  padding: 0.4rem var(--gutter);
+  white-space: normal;
+  text-align: center;
+}
+
+html:not(.js) .promo__track + .promo__track,
+html:not(.js) .promo__track li:nth-child(n + 5),
+html:not(.js) .promo__dot {
+  display: none;
+}
+
+@keyframes marquee {
+  to {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+/* Header */
+
+.topbar {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -261,7 +381,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  padding: calc(var(--header-h) + 1.5rem) var(--gutter) 2.5rem;
+  padding: calc(var(--top-h) + 1.5rem) var(--gutter) 2.5rem;
 }
 
 .hero__eyebrow {
@@ -322,7 +442,7 @@ a {
   }
 
   .hero__content {
-    padding-top: calc(var(--header-h) + 2rem);
+    padding-top: calc(var(--top-h) + 2rem);
     padding-bottom: clamp(3rem, 8vh, 6rem);
     padding-left: max(var(--gutter), calc((100vw - var(--max)) / 2 + var(--gutter)));
   }
@@ -346,7 +466,7 @@ a {
 
 @media (min-width: 900px) and (max-height: 820px) {
   .hero__content {
-    padding-top: calc(var(--header-h) + 1rem);
+    padding-top: calc(var(--top-h) + 1rem);
     padding-bottom: 2.5rem;
   }
 }
@@ -394,7 +514,7 @@ a {
 
 .js .hero__media,
 .js .gender__layer,
-.js .marquee__track {
+.js .promo__track {
   will-change: transform;
 }
 
@@ -559,129 +679,6 @@ a {
 
   .gender--hombre {
     margin-top: clamp(4rem, 12vw, 10rem);
-  }
-}
-
-/* ---------- Beneficios (marquee) ---------- */
-
-.benefits {
-  position: relative;
-  overflow: hidden;
-  padding: 1.15rem 0;
-  background: var(--ink);
-  color: var(--bone);
-}
-
-.marquee {
-  display: flex;
-  width: 100%;
-}
-
-.marquee__track {
-  display: flex;
-  flex: 0 0 auto;
-  justify-content: space-around;
-  gap: 3rem;
-  min-width: 100%;
-  margin: 0;
-  padding: 0 1.5rem;
-  list-style: none;
-  white-space: nowrap;
-}
-
-.js .marquee__track {
-  animation: marquee 26s linear infinite;
-}
-
-.benefits:hover .marquee__track,
-.benefits.is-paused .marquee__track {
-  animation-play-state: paused;
-}
-
-.marquee li {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-size: 0.82rem;
-  font-weight: 500;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.marquee li em {
-  font: italic 300 1.2em/1 var(--font-display);
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-.marquee svg {
-  width: 1.3rem;
-  height: 1.3rem;
-  flex: none;
-}
-
-/* Control de pausa (WCAG 2.2.2). Solo tiene sentido con JS. */
-.marquee__toggle {
-  position: absolute;
-  top: 50%;
-  right: 0.6rem;
-  display: grid;
-  place-items: center;
-  width: 2rem;
-  height: 2rem;
-  padding: 0;
-  border: 1px solid rgba(244, 241, 234, 0.4);
-  border-radius: 50%;
-  background: var(--ink);
-  color: var(--bone);
-  box-shadow: -10px 0 14px var(--ink);
-  cursor: pointer;
-  transform: translateY(-50%);
-}
-
-.marquee__toggle svg {
-  width: 0.9rem;
-  height: 0.9rem;
-}
-
-.marquee__toggle .marquee__ico-play {
-  display: none;
-}
-
-.benefits.is-paused .marquee__ico-play {
-  display: block;
-}
-
-.benefits.is-paused .marquee__ico-pause {
-  display: none;
-}
-
-html:not(.js) .marquee__toggle {
-  display: none;
-}
-
-/* Sin JS la barra no se mueve: los tres beneficios se muestran en líneas. */
-html:not(.js) .marquee {
-  flex-wrap: wrap;
-}
-
-html:not(.js) .marquee__track {
-  flex: 0 0 100%;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 0.75rem 2rem;
-  min-width: 0;
-  padding: 0 var(--gutter);
-  white-space: normal;
-}
-
-html:not(.js) .marquee__track[aria-hidden="true"] {
-  display: none;
-}
-
-@keyframes marquee {
-  to {
-    transform: translate3d(-100%, 0, 0);
   }
 }
 
@@ -1232,26 +1229,29 @@ html:not(.js) .card:nth-child(even) {
 
   .js .hero__media,
   .js .gender__layer,
-  .js .marquee__track {
+  .js .promo__track {
     will-change: auto;
   }
 
-  .marquee {
+  .promo__marquee {
     flex-wrap: wrap;
   }
 
-  .marquee__track {
+  .promo__track {
     flex: 0 0 100%;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.75rem 2rem;
+    gap: 0.25rem 1.25rem;
     min-width: 0;
-    padding: 0 var(--gutter);
+    padding: 0.4rem var(--gutter);
     white-space: normal;
+    text-align: center;
   }
 
-  .marquee__track[aria-hidden="true"],
-  .marquee__toggle {
+  .promo__track + .promo__track,
+  .promo__track li:nth-child(n + 5),
+  .promo__dot,
+  .promo__toggle {
     display: none;
   }
 

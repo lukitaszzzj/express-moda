@@ -1,7 +1,7 @@
+*.log
 .DS_Store
+.claude/
+.vercel/
 Thumbs.db
 desktop.ini
-*.log
 node_modules/
-.vercel/
-.claude/

@@ -4,6 +4,16 @@ Sitio estático de una sola página para **Express Moda** (expressmoda.com.ar), 
 
 Sin frameworks ni build step. HTML, CSS y JavaScript vanilla; la única dependencia externa es Google Fonts.
 
+## Publicación
+
+- **Sitio:** https://express-moda.vercel.app
+- **Repositorio:** https://github.com/lukitaszzzj/express-moda
+- **Deploy automático:** el proyecto `express-moda` de Vercel está conectado a este repo. Cada push a `main` publica en producción; los push a otras ramas generan una URL de preview.
+
+```bash
+git push origin main
+```
+
 ## Estructura
 
 ```

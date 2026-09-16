@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Qué es este proyecto
 
-Web estática de una página para **Express Moda** (expressmoda.com.ar), tienda de ropa femenina y masculina de Argentina con locales en Mar del Plata y Villa Crespo. Replica la estructura y funciones de la tienda real de Tienda Nube (menú por categorías, catálogo, ficha, carrito, newsletter) con un rediseño editorial propio. **No tiene backend**: carrito, últimos vistos y newsletter se simulan con `localStorage`, siempre dentro de try/catch. Se publica en GitHub Pages (rama `main`, raíz) o Vercel (sin build, output en la raíz).
+Web estática de una página para **Express Moda** (expressmoda.com.ar), tienda de ropa femenina y masculina de Argentina con locales en Mar del Plata y Villa Crespo. Replica la estructura y funciones de la tienda real de Tienda Nube (menú por categorías, catálogo, ficha, carrito, newsletter) con un rediseño editorial propio. **No tiene backend**: carrito, últimos vistos y newsletter se simulan con `localStorage`, siempre dentro de try/catch. Publicado en https://express-moda.vercel.app (proyecto Vercel `express-moda`, sin build, output en la raíz), conectado a https://github.com/lukitaszzzj/express-moda: **cada push a `main` despliega a producción**, así que no pushear a `main` cambios sin verificar. `.vercelignore` deja fuera del sitio `CLAUDE.md`, el README, `.claude`, `.vercel` y `.env*`.
 
 ## Stack y comandos
 
